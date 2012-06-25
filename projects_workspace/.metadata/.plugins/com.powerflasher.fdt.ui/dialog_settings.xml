@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="outline_presenter_bounds">
+	</section>
+	<section name="hierarchy_presenter_bounds">
+	</section>
+	<section name="completion_proposal_size">
+	</section>
+	<section name="dependency_presenter_bounds">
+	</section>
+	<section name="type_presenter_bounds">
+	</section>
+	<section name="quickassistant_proposal_size">
+	</section>
+</section>
