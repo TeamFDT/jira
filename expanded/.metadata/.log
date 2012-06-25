@@ -1,0 +1,174 @@
+!SESSION 2012-06-25 09:02:28.531 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.6.0_33
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product com.powerflasher.fdt.product.product -product com.powerflasher.fdt.product.product -product com.powerflasher.fdt.product.product -keyring /Users/OSX/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product com.powerflasher.fdt.product.product -product com.powerflasher.fdt.product.product -data /Users/OSX/Desktop/fdt_jira/expanded -product com.powerflasher.fdt.product.product -keyring /Users/OSX/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2012-06-25 09:02:39.061
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.powerflasher.fdt.core 4 4 2012-06-25 09:04:31.803
+!MESSAGE FDT log: The resource tree is locked for modifications.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: The resource tree is locked for modifications.
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:116)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:2282)
+	at org.eclipse.core.internal.resources.File.create(File.java:110)
+	at org.eclipse.core.internal.resources.File.create(File.java:187)
+	at com.powerflasher.fdt.internal.core.resources.BaseClasspath.writeToClasspathFile(BaseClasspath.java:114)
+	at com.powerflasher.fdt.internal.core.resources.BaseClasspath.writeToFile(BaseClasspath.java:102)
+	at com.powerflasher.fdt.internal.core.resources.BaseClasspath.loadFromFile(BaseClasspath.java:214)
+	at com.powerflasher.fdt.core.resources.AS3ProjectServiceFactory.getClasspath(AS3ProjectServiceFactory.java:131)
+	at com.powerflasher.fdt.internal.core.resources.FlashProjectAdapter.updateProjectDependencies(FlashProjectAdapter.java:534)
+	at com.powerflasher.fdt.internal.core.resources.FlashProjectAdapter.init(FlashProjectAdapter.java:792)
+	at com.powerflasher.fdt.internal.core.resources.ProjectAdapterFactory.getAdapter(ProjectAdapterFactory.java:40)
+	at org.eclipse.core.internal.runtime.AdapterManager.getAdapter(AdapterManager.java:295)
+	at org.eclipse.core.runtime.PlatformObject.getAdapter(PlatformObject.java:66)
+	at com.powerflasher.fdt.internal.core.resources.FlashResourceAdapter.internalIsClasspathRootUnchecked(FlashResourceAdapter.java:56)
+	at com.powerflasher.fdt.internal.core.resources.FlashResourceAdapter.internalIsClasspathRoot(FlashResourceAdapter.java:47)
+	at com.powerflasher.fdt.internal.core.resources.FlashResourceAdapter.isClasspathRoot(FlashResourceAdapter.java:36)
+	at com.powerflasher.fdt.internal.core.resources.FDTResourceListener$ResourceChangedVisitor.visit(FDTResourceListener.java:147)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:69)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:49)
+	at com.powerflasher.fdt.internal.core.resources.FDTResourceListener.resourceChanged(FDTResourceListener.java:165)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:395)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1530)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2353)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.core.resources 4 380 2012-06-25 09:04:31.804
+!MESSAGE The resource tree is locked for modifications.
+
+!ENTRY com.powerflasher.fdt.core 4 4 2012-06-25 09:04:31.809
+!MESSAGE FDT log: The resource tree is locked for modifications.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: The resource tree is locked for modifications.
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:116)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:2282)
+	at org.eclipse.core.internal.resources.File.create(File.java:110)
+	at org.eclipse.core.internal.resources.File.create(File.java:187)
+	at com.powerflasher.fdt.internal.core.resources.BaseClasspath.writeToClasspathFile(BaseClasspath.java:114)
+	at com.powerflasher.fdt.internal.core.resources.BaseClasspath.writeToFile(BaseClasspath.java:102)
+	at com.powerflasher.fdt.internal.core.resources.BaseClasspath.loadFromFile(BaseClasspath.java:214)
+	at com.powerflasher.fdt.internal.core.resources.FlashProjectAdapter.updateProjectDependencies(FlashProjectAdapter.java:535)
+	at com.powerflasher.fdt.internal.core.resources.FlashProjectAdapter.init(FlashProjectAdapter.java:792)
+	at com.powerflasher.fdt.internal.core.resources.ProjectAdapterFactory.getAdapter(ProjectAdapterFactory.java:40)
+	at org.eclipse.core.internal.runtime.AdapterManager.getAdapter(AdapterManager.java:295)
+	at org.eclipse.core.runtime.PlatformObject.getAdapter(PlatformObject.java:66)
+	at com.powerflasher.fdt.internal.core.resources.FlashResourceAdapter.internalIsClasspathRootUnchecked(FlashResourceAdapter.java:56)
+	at com.powerflasher.fdt.internal.core.resources.FlashResourceAdapter.internalIsClasspathRoot(FlashResourceAdapter.java:47)
+	at com.powerflasher.fdt.internal.core.resources.FlashResourceAdapter.isClasspathRoot(FlashResourceAdapter.java:36)
+	at com.powerflasher.fdt.internal.core.resources.FDTResourceListener$ResourceChangedVisitor.visit(FDTResourceListener.java:147)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:69)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:49)
+	at com.powerflasher.fdt.internal.core.resources.FDTResourceListener.resourceChanged(FDTResourceListener.java:165)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:395)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1530)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2353)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.core.resources 4 380 2012-06-25 09:04:31.810
+!MESSAGE The resource tree is locked for modifications.
+
+!ENTRY com.powerflasher.fdt.core 4 4 2012-06-25 09:04:31.936
+!MESSAGE FDT log: Resource '/FDT-2789/src' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/FDT-2789/src' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:320)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:194)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:54)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:104)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:88)
+	at com.powerflasher.fdt.core.resourcemodel.AbstractSourceUnitContainer.buildPackagesAndSourceFiles(AbstractSourceUnitContainer.java:68)
+	at com.powerflasher.fdt.core.resourcemodel.ResourceProject.buildSourceContainerModels(ResourceProject.java:93)
+	at com.powerflasher.fdt.core.resourcemodel.FDTResourceModel.addProject(FDTResourceModel.java:102)
+	at com.powerflasher.fdt.core.resourcemodel.FDTResourceModelBuilder.addProject(FDTResourceModelBuilder.java:30)
+	at com.powerflasher.fdt.internal.core.resourcemodel.FDTResourceModelProjectListener$1.run(FDTResourceModelProjectListener.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2012-06-25 09:04:31.937
+!MESSAGE Resource '/FDT-2789/src' does not exist.
+
+!ENTRY com.powerflasher.fdt.core 4 4 2012-06-25 09:04:42.983
+!MESSAGE FDT log: Resource '/FDT-2809/src' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/FDT-2809/src' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:320)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:194)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:54)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:104)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:88)
+	at com.powerflasher.fdt.core.resourcemodel.AbstractSourceUnitContainer.buildPackagesAndSourceFiles(AbstractSourceUnitContainer.java:68)
+	at com.powerflasher.fdt.core.resourcemodel.ResourceProject.buildSourceContainerModels(ResourceProject.java:93)
+	at com.powerflasher.fdt.core.resourcemodel.FDTResourceModel.addProject(FDTResourceModel.java:102)
+	at com.powerflasher.fdt.core.resourcemodel.FDTResourceModelBuilder.addProject(FDTResourceModelBuilder.java:30)
+	at com.powerflasher.fdt.internal.core.resourcemodel.FDTResourceModelProjectListener$1.run(FDTResourceModelProjectListener.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2012-06-25 09:04:42.984
+!MESSAGE Resource '/FDT-2809/src' does not exist.
+
+!ENTRY com.powerflasher.fdt.core 4 4 2012-06-25 09:04:57.179
+!MESSAGE FDT log: Resource '/FDT-2783/src' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/FDT-2783/src' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:320)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:194)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:54)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:104)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:88)
+	at com.powerflasher.fdt.core.resourcemodel.AbstractSourceUnitContainer.buildPackagesAndSourceFiles(AbstractSourceUnitContainer.java:68)
+	at com.powerflasher.fdt.core.resourcemodel.ResourceProject.buildSourceContainerModels(ResourceProject.java:93)
+	at com.powerflasher.fdt.core.resourcemodel.FDTResourceModel.addProject(FDTResourceModel.java:102)
+	at com.powerflasher.fdt.core.resourcemodel.FDTResourceModelBuilder.addProject(FDTResourceModelBuilder.java:30)
+	at com.powerflasher.fdt.internal.core.resourcemodel.FDTResourceModelProjectListener$1.run(FDTResourceModelProjectListener.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2012-06-25 09:04:57.180
+!MESSAGE Resource '/FDT-2783/src' does not exist.
+
+!ENTRY com.powerflasher.fdt.core 4 4 2012-06-25 09:04:58.851
+!MESSAGE FDT log: No message gotten.
+!STACK 0
+java.lang.NullPointerException
+	at com.powerflasher.fdt.core.outermodel.builder.OuterModelBuilder.bindResourcesStep1(OuterModelBuilder.java:145)
+	at com.powerflasher.fdt.internal.core.builder.FlashBuilder.bindOuterModelsForFilesStep1(FlashBuilder.java:1258)
+	at com.powerflasher.fdt.internal.core.builder.FlashBuilder.incrementalBuild(FlashBuilder.java:514)
+	at com.powerflasher.fdt.internal.core.builder.FlashBuilder.build(FlashBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.powerflasher.fdt.core 1 1 2012-06-25 09:04:58.852
+!MESSAGE Error at Incremental build (FDT-2783) - See last log.
+!SESSION 2012-06-25 13:55:04.365 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.6.0_33
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product com.powerflasher.fdt.product.product -keyring /Users/OSX/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product com.powerflasher.fdt.product.product -keyring /Users/OSX/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2012-06-25 13:55:21.171
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.powerflasher.fdt.core 1 1 2012-06-25 13:56:53.517
+!MESSAGE FDT has been configured trusted path: Added /Users/OSX/Desktop/fdt_jira/expanded/FDT-2813/bin/ to local trusted path.
