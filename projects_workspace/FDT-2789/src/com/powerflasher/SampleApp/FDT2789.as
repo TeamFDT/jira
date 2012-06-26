@@ -3,6 +3,9 @@ package com.powerflasher.SampleApp {
 
 	public class FDT2789 extends Sprite {
 		public function FDT2789() {
+			party();
+		}
+		private function party() : void {
 		}
 	}
 }
