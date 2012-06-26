@@ -1,0 +1,53 @@
+#Tue Jun 26 13:00:03 EDT 2012
+Android(draseed)/com.powerflasher.fdt.core.mobile.Android.ACTIVE=true
+Android(draseed)/com.powerflasher.fdt.core.mobile.Android.CUSTOM.ADT.CMD.LINE=${package} ${connection} ${target} ${market} ${provision} ${signing} ${output} ${content} ${icons} ${platformsdk}
+Android(draseed)/com.powerflasher.fdt.core.mobile.Android.CUSTOMIZE.ADT.ARGS=false
+Android(draseed)/com.powerflasher.fdt.core.mobile.Android.DEPLOY.EXPORT.CAPTIVE=false
+Android(draseed)/com.powerflasher.fdt.core.mobile.Android.DEPLOY.INSTALL.CHECK=false
+Android(draseed)/com.powerflasher.fdt.core.mobile.Android.DEPLOY.LOCATION=
+Android(draseed)/com.powerflasher.fdt.core.mobile.Android.DEPLOY.MARKET.INDEX=0
+Android(draseed)/com.powerflasher.fdt.core.mobile.Android.DEPLOY.PRE.PACKAGE.LAUNCHER=\ -- No adequate launcher found\! -- 
+Android(draseed)/com.powerflasher.fdt.core.mobile.Android.ICON.PATH.36x36=
+Android(draseed)/com.powerflasher.fdt.core.mobile.Android.ICON.PATH.48x48=
+Android(draseed)/com.powerflasher.fdt.core.mobile.Android.ICON.PATH.72x72=
+Android(draseed)/com.powerflasher.fdt.core.mobile.Android.MOBILE.DESCRIPTOR=bin/FDT-2803-app.xml
+Android(draseed)/com.powerflasher.fdt.core.mobile.Android.PACKAGE.CONTENT=bin/FDT-2803-app.xml > FDT-2803-app.xml;bin/FDT-2803.swf > FDT-2803.swf;
+Android(draseed)/com.powerflasher.fdt.core.mobile.Android.SIGNATURE.CERTIFICATE=
+Android(draseed)/com.powerflasher.fdt.core.mobile.Android.SIGNATURE.PWD=HZsdm2UDN/4\=
+Android(draseed)/com.powerflasher.fdt.core.mobile.Android.SIGNATURE.REMEMBER.PWD=false
+Android(draseed)/id=draseed
+Android(sdfasdfasd)/com.powerflasher.fdt.core.mobile.Android.ACTIVE=true
+Android(sdfasdfasd)/com.powerflasher.fdt.core.mobile.Android.MOBILE.DESCRIPTOR=bin/FDT-2803-app.xml
+Android(sdfasdfasd)/id=sdfasdfasd
+com.powerflasher.fdt.core.CompatiblePlayers=AIR_Debug_Launcher
+com.powerflasher.fdt.core.CompilerArguments=-static-link-runtime-shared-libraries\=true\n-target-player\={playerVersion}\n-library-path+\="{flexSDK}/frameworks/locale/en_US"\n-default-size\=550,400
+com.powerflasher.fdt.core.DefaultOutputFolder=bin
+com.powerflasher.fdt.core.DefaultPlayer=AIR_Debug_Launcher
+com.powerflasher.fdt.core.Language=AS3
+com.powerflasher.fdt.core.PassClasspath=true
+com.powerflasher.fdt.core.PassExterns=false
+com.powerflasher.fdt.core.PassMainclass=true
+com.powerflasher.fdt.core.PassRsls=false
+com.powerflasher.fdt.core.PassSwcs=true
+com.powerflasher.fdt.core.PlatformType=MOBILE
+com.powerflasher.fdt.core.PlayerVersion=11.1
+com.powerflasher.fdt.core.ProjectTypeHint=AIR Mobile
+com.powerflasher.fdt.core.Runtime=AIR
+com.powerflasher.fdt.core.SdkName=Flex 4.6.0
+com.powerflasher.fdt.core.mobile.Android.ACTIVE=true
+com.powerflasher.fdt.core.mobile.Android.CUSTOM.ADT.CMD.LINE=${package} ${connection} ${target} ${market} ${provision} ${signing} ${output} ${content} ${icons} ${platformsdk}
+com.powerflasher.fdt.core.mobile.Android.CUSTOMIZE.ADT.ARGS=false
+com.powerflasher.fdt.core.mobile.Android.DEPLOY.EXPORT.CAPTIVE=false
+com.powerflasher.fdt.core.mobile.Android.DEPLOY.INSTALL.CHECK=false
+com.powerflasher.fdt.core.mobile.Android.DEPLOY.LOCATION=
+com.powerflasher.fdt.core.mobile.Android.DEPLOY.MARKET.INDEX=0
+com.powerflasher.fdt.core.mobile.Android.DEPLOY.PRE.PACKAGE.LAUNCHER=\ -- No adequate launcher found\! -- 
+com.powerflasher.fdt.core.mobile.Android.ICON.PATH.36x36=
+com.powerflasher.fdt.core.mobile.Android.ICON.PATH.48x48=
+com.powerflasher.fdt.core.mobile.Android.ICON.PATH.72x72=
+com.powerflasher.fdt.core.mobile.Android.MOBILE.DESCRIPTOR=bin/FDT-2803-app.xml
+com.powerflasher.fdt.core.mobile.Android.PACKAGE.CONTENT=bin/FDT-2803-app.xml > FDT-2803-app.xml;bin/FDT-2803.swf > FDT-2803.swf;
+com.powerflasher.fdt.core.mobile.Android.SIGNATURE.CERTIFICATE=
+com.powerflasher.fdt.core.mobile.Android.SIGNATURE.PWD=HZsdm2UDN/4\=
+com.powerflasher.fdt.core.mobile.Android.SIGNATURE.REMEMBER.PWD=false
+eclipse.preferences.version=1
