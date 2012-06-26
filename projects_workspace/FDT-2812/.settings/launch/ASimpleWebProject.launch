@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="com.powerflasher.fdt.ui.MobileApplicationGroup">
-<stringAttribute key="ADL_DESCRIPTOR_FILE" value="bin/HelloAirAndroid-app.xml"/>
+<stringAttribute key="ADL_DESCRIPTOR_FILE" value="bin/FDT2812-app.xml"/>
 <stringAttribute key="ADL_SCREENSIZE" value="800x1232:800x1280"/>
-<intAttribute key="AIR_VIEWER_CONF" value="2"/>
+<intAttribute key="AIR_VIEWER_CONF" value="1"/>
 <stringAttribute key="ARGUMENTS" value=""/>
 <booleanAttribute key="CLEAR_DATA" value="false"/>
 <booleanAttribute key="CUSTOMIZE_ADL_ARGS" value="false"/>
@@ -11,8 +11,8 @@
 <booleanAttribute key="DISABLE_COMPILE_PROCESS" value="false"/>
 <booleanAttribute key="INSTALL_APPLICATION" value="true"/>
 <stringAttribute key="LAUNCHER_DEPENDENCIES" value="[Self]"/>
-<intAttribute key="LAUNCH_METHOD" value="255"/>
-<stringAttribute key="MAIN_CLASS" value="src/com/powerflasher/SampleApp/HelloAirAndroid.as"/>
+<intAttribute key="LAUNCH_METHOD" value="0"/>
+<stringAttribute key="MAIN_CLASS" value="src/com/powerflasher/SampleApp/ASimpleWebProject.as"/>
 <stringAttribute key="MOBILE_PRESET" value="ASUS Eee Pad Transformer"/>
 <intAttribute key="PACKAGE_METHOD" value="0"/>
 <booleanAttribute key="PASS_CP" value="true"/>
