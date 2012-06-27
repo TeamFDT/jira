@@ -1,0 +1,8 @@
+::::::::::::::::::::::::
+::
+:: You'll have to amend the paths below to point to 
+::      a) Your air debugger adl
+::		b) Your project path
+::
+::::::::::::::::::::::::
+C:\Users\marc\work\tools\flex\flex_sdk_4.6.0.23201B\bin\adl.exe -profile extendedDesktop C:\Users\marc\work\workspaces\bossa\ExtendedProfileSample\bin\ExtendedProfileSample-app.xml C:\Users\marc\work\workspaces\bossa\ExtendedProfileSample\bin

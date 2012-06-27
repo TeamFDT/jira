@@ -215,3 +215,49 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product com.powerfla
 
 !ENTRY org.eclipse.core.net 1 0 2012-06-26 11:25:24.318
 !MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2012-06-27 11:56:41.895 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.6.0_33
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product com.powerflasher.fdt.product.product -keyring /Users/OSX/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product com.powerflasher.fdt.product.product -keyring /Users/OSX/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2012-06-27 11:59:29.885
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.powerflasher.fdt.core 4 4 2012-06-27 12:01:01.043
+!MESSAGE FDT log: Resource '/FDT-2803/src' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/FDT-2803/src' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:320)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:194)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:54)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:104)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:88)
+	at com.powerflasher.fdt.core.resourcemodel.AbstractSourceUnitContainer.buildPackagesAndSourceFiles(AbstractSourceUnitContainer.java:68)
+	at com.powerflasher.fdt.core.resourcemodel.ResourceProject.buildSourceContainerModels(ResourceProject.java:93)
+	at com.powerflasher.fdt.core.resourcemodel.FDTResourceModel.addProject(FDTResourceModel.java:102)
+	at com.powerflasher.fdt.core.resourcemodel.FDTResourceModelBuilder.addProject(FDTResourceModelBuilder.java:30)
+	at com.powerflasher.fdt.internal.core.resourcemodel.FDTResourceModelProjectListener$1.run(FDTResourceModelProjectListener.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2012-06-27 12:01:01.045
+!MESSAGE Resource '/FDT-2803/src' does not exist.
+
+!ENTRY com.powerflasher.fdt.core 4 4 2012-06-27 12:01:15.599
+!MESSAGE FDT log: Resource '/FDT-2812/src' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/FDT-2812/src' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:320)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:194)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:54)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:104)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:88)
+	at com.powerflasher.fdt.core.resourcemodel.AbstractSourceUnitContainer.buildPackagesAndSourceFiles(AbstractSourceUnitContainer.java:68)
+	at com.powerflasher.fdt.core.resourcemodel.ResourceProject.buildSourceContainerModels(ResourceProject.java:93)
+	at com.powerflasher.fdt.core.resourcemodel.FDTResourceModel.addProject(FDTResourceModel.java:102)
+	at com.powerflasher.fdt.core.resourcemodel.FDTResourceModelBuilder.addProject(FDTResourceModelBuilder.java:30)
+	at com.powerflasher.fdt.internal.core.resourcemodel.FDTResourceModelProjectListener$1.run(FDTResourceModelProjectListener.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2012-06-27 12:01:15.599
+!MESSAGE Resource '/FDT-2812/src' does not exist.

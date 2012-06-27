@@ -1,0 +1,26 @@
+Hello FDT,
+
+I've taken the time to put together a sample project for you in regards to issue report issue FDT-2804. 
+
+The project is composed of:
+	- a simple jar (including source and build file) that does nothing but output a string
+	- an air app that runs the jar using NativeProcess and renders the output in a text field
+	- a bat file to run the app using adl.exe 
+
+Please note, you will have to build the jar yourself using the supplied build file in project/jar/build, my email system won't let me send you a jar.
+You might also have to amend the paths found in ExtendedProfileSample.as (your java path) and runair.bat (your flex sdk and project path) or write an equivilent shell script.
+
+The problem is as follows:
+
+FDT won't compile or run the air app app with <supportedProfiles>extendedDesktop</supportedProfiles> set in the app descriptor xml.
+
+The following error is returned:
+"invalid profile specified 'Application does not support current profile'"
+
+If you run the included debug configuration you will see this error. If you then amend bin/ExtendedProfileSample-app.xml and remove <supportedProfiles>extendedDesktop</supportedProfiles> the app will build and run in the debugger but NativeProcess.isSupported will return false, not allowing us to run our external app.
+
+If you run the app using the supplied batch file (and with <supportedProfiles>extendedDesktop</supportedProfiles> set in the -app.xml) you will see the app run and correctly render the output from our jar.
+
+Look forward to hearing your feedback.
+
+Many thanks

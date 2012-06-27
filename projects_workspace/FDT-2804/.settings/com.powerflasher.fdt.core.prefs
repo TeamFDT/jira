@@ -1,0 +1,34 @@
+#Wed Jun 27 12:07:13 EDT 2012
+com.powerflasher.fdt.core.CompatiblePlayers=AIR_Debug_Launcher
+com.powerflasher.fdt.core.CompilerArguments=-target-player\={playerVersion}\n-library-path+\="{flexSDK}/frameworks/locale/en_US"\n-default-size\=550,400
+com.powerflasher.fdt.core.DefaultOutputFolder=bin
+com.powerflasher.fdt.core.DefaultPlayer=AIR_Debug_Launcher
+com.powerflasher.fdt.core.Language=AS3
+com.powerflasher.fdt.core.PassClasspath=true
+com.powerflasher.fdt.core.PassExterns=false
+com.powerflasher.fdt.core.PassMainclass=true
+com.powerflasher.fdt.core.PassRsls=false
+com.powerflasher.fdt.core.PassSwcs=true
+com.powerflasher.fdt.core.PlatformType=DESKTOP
+com.powerflasher.fdt.core.PlayerVersion=11.1
+com.powerflasher.fdt.core.ProjectTypeHint=AIR Flex
+com.powerflasher.fdt.core.Runtime=AIR
+com.powerflasher.fdt.core.SdkName=Flex 4.6.0
+com.powerflasher.fdt.core.mobile.AirDesktop.ACTIVE=true
+com.powerflasher.fdt.core.mobile.AirDesktop.AVAILABLE.EXTENSIONS=
+com.powerflasher.fdt.core.mobile.AirDesktop.DEPLOY.LOCATION=
+com.powerflasher.fdt.core.mobile.AirDesktop.DEPLOY.PRE.PACKAGE.LAUNCHER=ExtendedProfileSample
+com.powerflasher.fdt.core.mobile.AirDesktop.DEPLOY.TYPE.AIR.DESKTOP=AIR
+com.powerflasher.fdt.core.mobile.AirDesktop.ICON.PATH.114x114=
+com.powerflasher.fdt.core.mobile.AirDesktop.ICON.PATH.128x128=
+com.powerflasher.fdt.core.mobile.AirDesktop.ICON.PATH.16x16=
+com.powerflasher.fdt.core.mobile.AirDesktop.ICON.PATH.32x32=
+com.powerflasher.fdt.core.mobile.AirDesktop.ICON.PATH.36x36=
+com.powerflasher.fdt.core.mobile.AirDesktop.ICON.PATH.48x48=
+com.powerflasher.fdt.core.mobile.AirDesktop.ICON.PATH.72x72=
+com.powerflasher.fdt.core.mobile.AirDesktop.MOBILE.DESCRIPTOR=bin/ExtendedProfileSample-app.xml
+com.powerflasher.fdt.core.mobile.AirDesktop.PACKAGE.CONTENT=bin/ExtendedProfileSample-app.xml > ExtendedProfileSample-app.xml;bin/ExtendedProfileSample.swf > ExtendedProfileSample.swf;
+com.powerflasher.fdt.core.mobile.AirDesktop.SIGNATURE.CERTIFICATE=
+com.powerflasher.fdt.core.mobile.AirDesktop.SIGNATURE.PWD=HZsdm2UDN/4\=
+com.powerflasher.fdt.core.mobile.AirDesktop.SIGNATURE.REMEMBER.PWD=false
+eclipse.preferences.version=1
