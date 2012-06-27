@@ -1,40 +1,4 @@
-#Wed Jun 27 10:00:04 EDT 2012
-Android(Profile\ 01)/com.powerflasher.fdt.core.mobile.Android.ACTIVE=true
-Android(Profile\ 01)/com.powerflasher.fdt.core.mobile.Android.AVAILABLE.EXTENSIONS=
-Android(Profile\ 01)/com.powerflasher.fdt.core.mobile.Android.CUSTOM.ADT.CMD.LINE=${package} ${connection} ${target} ${market} ${provision} ${signing} ${output} ${content} ${icons} ${platformsdk}
-Android(Profile\ 01)/com.powerflasher.fdt.core.mobile.Android.CUSTOMIZE.ADT.ARGS=false
-Android(Profile\ 01)/com.powerflasher.fdt.core.mobile.Android.DEPLOY.EXPORT.CAPTIVE=false
-Android(Profile\ 01)/com.powerflasher.fdt.core.mobile.Android.DEPLOY.INSTALL.CHECK=false
-Android(Profile\ 01)/com.powerflasher.fdt.core.mobile.Android.DEPLOY.LOCATION=
-Android(Profile\ 01)/com.powerflasher.fdt.core.mobile.Android.DEPLOY.MARKET.INDEX=0
-Android(Profile\ 01)/com.powerflasher.fdt.core.mobile.Android.DEPLOY.PRE.PACKAGE.LAUNCHER=\ -- No adequate launcher found\! -- 
-Android(Profile\ 01)/com.powerflasher.fdt.core.mobile.Android.ICON.PATH.36x36=
-Android(Profile\ 01)/com.powerflasher.fdt.core.mobile.Android.ICON.PATH.48x48=
-Android(Profile\ 01)/com.powerflasher.fdt.core.mobile.Android.ICON.PATH.72x72=
-Android(Profile\ 01)/com.powerflasher.fdt.core.mobile.Android.MOBILE.DESCRIPTOR=bin/FDT-2803-1-app.xml
-Android(Profile\ 01)/com.powerflasher.fdt.core.mobile.Android.PACKAGE.CONTENT=bin/FDT-2803-1-app.xml > FDT-2803-1-app.xml;bin/FDT-2803.swf > FDT-2803.swf;
-Android(Profile\ 01)/com.powerflasher.fdt.core.mobile.Android.SIGNATURE.CERTIFICATE=
-Android(Profile\ 01)/com.powerflasher.fdt.core.mobile.Android.SIGNATURE.PWD=HZsdm2UDN/4\=
-Android(Profile\ 01)/com.powerflasher.fdt.core.mobile.Android.SIGNATURE.REMEMBER.PWD=false
-Android(Profile\ 01)/id=Profile 01
-Android(Profile\ 02ss)/com.powerflasher.fdt.core.mobile.Android.ACTIVE=true
-Android(Profile\ 02ss)/com.powerflasher.fdt.core.mobile.Android.AVAILABLE.EXTENSIONS=
-Android(Profile\ 02ss)/com.powerflasher.fdt.core.mobile.Android.CUSTOM.ADT.CMD.LINE=${package} ${connection} ${target} ${market} ${provision} ${signing} ${output} ${content} ${icons} ${platformsdk}
-Android(Profile\ 02ss)/com.powerflasher.fdt.core.mobile.Android.CUSTOMIZE.ADT.ARGS=false
-Android(Profile\ 02ss)/com.powerflasher.fdt.core.mobile.Android.DEPLOY.EXPORT.CAPTIVE=false
-Android(Profile\ 02ss)/com.powerflasher.fdt.core.mobile.Android.DEPLOY.INSTALL.CHECK=false
-Android(Profile\ 02ss)/com.powerflasher.fdt.core.mobile.Android.DEPLOY.LOCATION=
-Android(Profile\ 02ss)/com.powerflasher.fdt.core.mobile.Android.DEPLOY.MARKET.INDEX=0
-Android(Profile\ 02ss)/com.powerflasher.fdt.core.mobile.Android.DEPLOY.PRE.PACKAGE.LAUNCHER=
-Android(Profile\ 02ss)/com.powerflasher.fdt.core.mobile.Android.ICON.PATH.36x36=
-Android(Profile\ 02ss)/com.powerflasher.fdt.core.mobile.Android.ICON.PATH.48x48=
-Android(Profile\ 02ss)/com.powerflasher.fdt.core.mobile.Android.ICON.PATH.72x72=
-Android(Profile\ 02ss)/com.powerflasher.fdt.core.mobile.Android.MOBILE.DESCRIPTOR=bin/FDT-2803-1-app.xml
-Android(Profile\ 02ss)/com.powerflasher.fdt.core.mobile.Android.PACKAGE.CONTENT=bin/FDT-2803-1-app.xml > FDT-2803-1-app.xml;bin/FDT-2803.swf > FDT-2803.swf;
-Android(Profile\ 02ss)/com.powerflasher.fdt.core.mobile.Android.SIGNATURE.CERTIFICATE=
-Android(Profile\ 02ss)/com.powerflasher.fdt.core.mobile.Android.SIGNATURE.PWD=HZsdm2UDN/4\=
-Android(Profile\ 02ss)/com.powerflasher.fdt.core.mobile.Android.SIGNATURE.REMEMBER.PWD=false
-Android(Profile\ 02ss)/id=Profile 02ss
+#Wed Jun 27 13:27:26 EDT 2012
 com.powerflasher.fdt.core.CompatiblePlayers=AIR_Debug_Launcher
 com.powerflasher.fdt.core.CompilerArguments=-static-link-runtime-shared-libraries\=true\n-target-player\={playerVersion}\n-library-path+\="{flexSDK}/frameworks/locale/en_US"\n-default-size\=550,400
 com.powerflasher.fdt.core.DefaultOutputFolder=bin
@@ -58,13 +22,26 @@ com.powerflasher.fdt.core.mobile.Android.DEPLOY.EXPORT.CAPTIVE=false
 com.powerflasher.fdt.core.mobile.Android.DEPLOY.INSTALL.CHECK=false
 com.powerflasher.fdt.core.mobile.Android.DEPLOY.LOCATION=
 com.powerflasher.fdt.core.mobile.Android.DEPLOY.MARKET.INDEX=0
+com.powerflasher.fdt.core.mobile.Android.DEPLOY.PACKAGE.TYPE=0
 com.powerflasher.fdt.core.mobile.Android.DEPLOY.PRE.PACKAGE.LAUNCHER=\ -- No adequate launcher found\! -- 
+com.powerflasher.fdt.core.mobile.Android.DEPLOY.SDK.LOCATION=
+com.powerflasher.fdt.core.mobile.Android.DEPLOY.TSA.URL=
+com.powerflasher.fdt.core.mobile.Android.DEPLOY.TYPE.AIR.DESKTOP=AIR
+com.powerflasher.fdt.core.mobile.Android.ENABLE.DIGITAL.SIGNING=true
+com.powerflasher.fdt.core.mobile.Android.EXTENSIONS.LOCATION=
+com.powerflasher.fdt.core.mobile.Android.EXTRA.PACKAGING.OPTIONS=
 com.powerflasher.fdt.core.mobile.Android.ICON.PATH.36x36=
 com.powerflasher.fdt.core.mobile.Android.ICON.PATH.48x48=
 com.powerflasher.fdt.core.mobile.Android.ICON.PATH.72x72=
-com.powerflasher.fdt.core.mobile.Android.MOBILE.DESCRIPTOR=bin/FDT-2803-app.xml
-com.powerflasher.fdt.core.mobile.Android.PACKAGE.CONTENT=bin/FDT-2803-app.xml > FDT-2803-app.xml;bin/FDT-2803.swf > FDT-2803.swf;
+com.powerflasher.fdt.core.mobile.Android.MOBILE.DESCRIPTOR=bin/FDT-2803-XX---app.xml
+com.powerflasher.fdt.core.mobile.Android.PACKAGE.CONTENT=bin/FDT-2803-XX---app.xml > FDT-2803-XX---app.xml;;
 com.powerflasher.fdt.core.mobile.Android.SIGNATURE.CERTIFICATE=
+com.powerflasher.fdt.core.mobile.Android.SIGNATURE.CERTIFICATE.RELEASE=
+com.powerflasher.fdt.core.mobile.Android.SIGNATURE.PROVISIONING.FILE=
+com.powerflasher.fdt.core.mobile.Android.SIGNATURE.PROVISIONING.FILE.RELEASE=
 com.powerflasher.fdt.core.mobile.Android.SIGNATURE.PWD=HZsdm2UDN/4\=
+com.powerflasher.fdt.core.mobile.Android.SIGNATURE.PWD.RELEASE=
 com.powerflasher.fdt.core.mobile.Android.SIGNATURE.REMEMBER.PWD=false
+com.powerflasher.fdt.core.mobile.Android.SIGNATURE.REMEMBER.PWD.RELEASE=false
+com.powerflasher.fdt.core.mobile.Android.SIGNATURE.USE.DIFEERENT.PROFILES=false
 eclipse.preferences.version=1

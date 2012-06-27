@@ -2,9 +2,9 @@
 <section name="Workbench">
 	<section name="outline_presenter_bounds">
 	</section>
-	<section name="hierarchy_presenter_bounds">
-	</section>
 	<section name="completion_proposal_size">
+	</section>
+	<section name="hierarchy_presenter_bounds">
 	</section>
 	<section name="dependency_presenter_bounds">
 	</section>
