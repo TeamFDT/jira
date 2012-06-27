@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="7" version="2.0">
+<workbench progressCount="12" version="2.0">
 <workbenchAdvisor/>
-<window height="768" width="1024" x="163" y="80">
+<window height="856" width="1812" x="4" y="22">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -13,6 +13,7 @@
 <coolItem id="com.powerflasher.fdt.ui.actionsets.asdoc" itemType="typeToolBarContribution" x="32" y="22"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="152" y="22"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="40" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="54" y="22"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="com.powerflasher.fdt.ui.professional.swf.plugin.bar" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -20,6 +21,7 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="152" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="com.powerflasher.fdt.ui.editor.ASEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -32,13 +34,18 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
+<part id="2"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="com.powerflasher.fdt.ui.editor.ASEditor" name="FDT2813.as" partName="FDT2813.as" path="/Users/OSX/Desktop/jira/projects_workspace/FDT-2813/src/com/powerflasher/SampleApp/FDT2813.as" title="FDT2813.as" tooltip="FDT-2813/src/com/powerflasher/SampleApp/FDT2813.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/FDT-2813/src/com/powerflasher/SampleApp/FDT2813.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="306" selectionTopPixel="0"/>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="README" partName="README" path="/Users/OSX/Desktop/jira/projects_workspace/FDT-2804/README" title="README" tooltip="FDT-2804/README" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/FDT-2804/README"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1350" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="com.powerflasher.fdt.ui.editor.ASEditor" name="ExtendedProfileSample.as" partName="ExtendedProfileSample.as" path="/Users/OSX/Desktop/jira/projects_workspace/FDT-2804/src/com/sample/ExtendedProfileSample.as" title="ExtendedProfileSample.as" tooltip="FDT-2804/src/com/sample/ExtendedProfileSample.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/FDT-2804/src/com/sample/ExtendedProfileSample.as"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="527" selectionTopPixel="276"/>
 </editor>
 </editors>
 <views>
@@ -59,13 +66,17 @@
 <filter element=".*" isEnabled="true"/>
 </filters>
 <selection>
-<element path="/FDT-2813"/>
+<element path="/FDT-2804"/>
 </selection>
 </viewState>
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
+<expanded>
+<category IMemento.internal.id="Warnings (1 item)"/>
+<category IMemento.internal.id="Errors"/>
+</expanded>
+<columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="706"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
@@ -78,6 +89,7 @@
 </view>
 <view id="org.eclipse.ant.ui.views.AntView" partName="Ant">
 <viewState>
+<project default="main" error="false" name="Build jar" path="/FDT-2804/jar/build/build.xml"/>
 <filterInternalTargets value="false"/>
 </viewState>
 </view>
@@ -153,13 +165,18 @@
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <view id="com.powerflasher.fdt.ui.views.FlashExplorer"/>
-<view id="org.eclipse.ui.views.ContentOutline"/>
-<view id="org.eclipse.ant.ui.views.AntView"/>
 <view id="org.eclipse.ui.views.ProblemView"/>
 <view id="org.eclipse.ui.views.TaskList"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="com.powerflasher.fdt.ui.asdoc.view.AsDocView"/>
-<fastViewBars/>
+<view id="org.eclipse.ant.ui.views.AntView"/>
+<fastViewBars>
+<fastViewBar fastViewLocation="16384" id="bottomLeft" orientation="512" selectedTabId="org.eclipse.ant.ui.views.AntView" style="0">
+<fastViews>
+<view id="org.eclipse.ui.views.ContentOutline" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+</fastViewBars>
 <layout>
 <mainWindow>
 <info folder="true" part="topLeft">
@@ -177,9 +194,9 @@
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.25984251" ratioLeft="264" ratioRight="752" relationship="2" relative="topLeft"/>
+<info part="org.eclipse.ui.editorss" ratio="0.19313593" ratioLeft="287" ratioRight="1199" relationship="2" relative="topLeft"/>
 <info folder="true" part="bottomRight" ratio="0.6998536" ratioLeft="478" ratioRight="205" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ProblemView" appearance="2" expanded="2">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
@@ -194,12 +211,16 @@
 </info>
 <info part="com.powerflasher.fdt.ui.swcOutline.SWCOutline" ratio="0.5" ratioLeft="376" ratioRight="376" relationship="2" relative="bottomRight"/>
 <info folder="true" part="bottomLeft" ratio="0.49926794" ratioLeft="341" ratioRight="342" relationship="4" relative="topLeft">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<folder appearance="2" expanded="0">
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@84e94ba" ratio="0.6640625" ratioLeft="510" ratioRight="258" relationship="4" relative="topLeft">
+<folder activePageID="org.eclipse.ant.ui.views.AntView" appearance="2" expanded="2">
 <page content="org.eclipse.ant.ui.views.AntView" label="Ant"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="1"/>
 </presentation>
 </folder>
 </info>
@@ -211,8 +232,16 @@
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.powerflasher.fdt.ui.editor.ASEditor" path="/FDT-2813/src/com/powerflasher/SampleApp/FDT2813.as"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/FDT-2804/README"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.powerflasher.fdt.ui.editor.ASEditor" path="/FDT-2804/src/com/sample/ExtendedProfileSample.as"/>
 </editors>
-<item active="true" historyLabel="FDT2813.as" index="0">
+<item historyLabel="FDT2813.as" index="0">
+<position info="not_deleted" x="306" y="0"/>
+</item>
+<item historyLabel="README" index="1">
+<position info="not_deleted" x="1350" y="0"/>
+</item>
+<item active="true" historyLabel="ExtendedProfileSample.as" index="2">
 <position info="not_deleted" x="0" y="0"/>
 </item>
 </navigationHistory>
@@ -221,6 +250,9 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="bottomLeft"/>
+</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -232,6 +264,12 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.powerflasher.fdt.ui.editor.ASEditor" name="ExtendedProfileSample.as" tooltip="FDT-2804/src/com/sample/ExtendedProfileSample.as">
+<persistable path="/FDT-2804/src/com/sample/ExtendedProfileSample.as"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="README" tooltip="FDT-2804/README">
+<persistable path="/FDT-2804/README"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.powerflasher.fdt.ui.editor.ASEditor" name="FDT2813.as" tooltip="FDT-2813/src/com/powerflasher/SampleApp/FDT2813.as">
 <persistable path="/FDT-2813/src/com/powerflasher/SampleApp/FDT2813.as"/>
 </file>
