@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="14" version="2.0">
+<workbench progressCount="5" version="2.0">
 <workbenchAdvisor/>
 <window height="788" width="1048" x="4" y="22">
 <fastViewData fastViewLocation="1024"/>
@@ -12,12 +12,12 @@
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="com.powerflasher.fdt.ui.actionsets.asdoc" itemType="typeToolBarContribution" x="32" y="22"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="152" y="22"/>
-<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="62" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="40" y="22"/>
 <coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="54" y="22"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="com.powerflasher.fdt.ui.professional.swf.plugin.bar" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="com.powerflasher.fdt.ui.CodingActionSet" itemType="typeToolBarContribution" x="32" y="22"/>
+<coolItem id="com.powerflasher.fdt.ui.CodingActionSet" itemType="typeToolBarContribution" x="126" y="22"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="152" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
@@ -26,7 +26,7 @@
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
-<page aggregateWorkingSetId="Aggregate for window 1340629358267" focus="true" label="Workspace - Debug">
+<page aggregateWorkingSetId="Aggregate for window 1340629358267" focus="true" label="Workspace - Flash FDT">
 <editors>
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
@@ -56,10 +56,11 @@
 <filter element=".*" isEnabled="true"/>
 </filters>
 <expanded>
-<element path="/FDT-2783"/>
+<element path="/FDT-2813"/>
+<element path="/Test"/>
 </expanded>
 <selection>
-<element path="/FDT-2783/src"/>
+<element path="/Test"/>
 </selection>
 </viewState>
 </view>
@@ -68,6 +69,9 @@
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>
+<category IMemento.internal.id="Warnings (1 item)"/>
+</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="706"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -108,9 +112,11 @@
 <view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
 <viewState/>
 </view>
-<view id="org.eclipse.wst.server.ui.ServersView" partName="Servers"/>
+<view id="org.eclipse.wst.server.ui.ServersView" partName="Servers">
+<viewState CommonNavigator.LINKING_ENABLED="0"/>
+</view>
 </views>
-<perspectives activePart="org.eclipse.ui.console.ConsoleView" activePerspective="org.eclipse.debug.ui.DebugPerspective">
+<perspectives activePart="com.powerflasher.fdt.ui.views.FlashExplorer" activePerspective="com.powerflasher.fdt.ui.Perspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="com.powerflasher.fdt.internal.ui.perspective.FlashPerspectiveFactory" id="com.powerflasher.fdt.ui.Perspective" label="Flash FDT"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -192,7 +198,7 @@
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.19313593" ratioLeft="287" ratioRight="1199" relationship="2" relative="topLeft"/>
+<info part="org.eclipse.ui.editorss" ratio="0.23738873" ratioLeft="240" ratioRight="771" relationship="2" relative="topLeft"/>
 <info folder="true" part="bottomRight" ratio="0.6998536" ratioLeft="478" ratioRight="205" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
@@ -243,8 +249,8 @@
 <alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
 <alwaysOnActionSet id="org.eclipse.jdt.debug.ui.JDTDebugActionSet"/>
 <alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
-<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
 <alwaysOnActionSet id="org.eclipse.debug.ui.profileActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
 <show_view_action id="org.eclipse.debug.ui.DebugView"/>
 <show_view_action id="org.eclipse.debug.ui.VariableView"/>
 <show_view_action id="org.eclipse.debug.ui.BreakpointView"/>
@@ -353,6 +359,9 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.powerflasher.fdt.ui.editor.ASEditor" name="FDT2820.as" tooltip="FDT-2820/src/com/powerflasher/SampleApp/FDT2820.as">
+<persistable path="/FDT-2820/src/com/powerflasher/SampleApp/FDT2820.as"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.powerflasher.fdt.ui.editor.ASEditor" name="ExtendedProfileSample.as" tooltip="FDT-2804/src/com/sample/ExtendedProfileSample.as">
 <persistable path="/FDT-2804/src/com/sample/ExtendedProfileSample.as"/>
 </file>

@@ -271,3 +271,164 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product com.powerfla
 
 !ENTRY org.eclipse.core.net 1 0 2012-06-27 13:13:03.086
 !MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2012-06-28 09:21:20.357 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.6.0_33
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product com.powerflasher.fdt.product.product -keyring /Users/OSX/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product com.powerflasher.fdt.product.product -keyring /Users/OSX/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2012-06-28 09:22:00.665
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.ui.ide 4 4 2012-06-28 09:22:10.664
+!MESSAGE Problems occurred closing the selected resources.
+!SUBENTRY 1 org.eclipse.core.resources 4 568 2012-06-28 09:22:10.664
+!MESSAGE Could not write metadata for '/FDT-2783'.
+!STACK 0
+java.io.FileNotFoundException: /Users/OSX/Desktop/jira/projects_workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/FDT-2783/1.tree (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:194)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:145)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(SafeFileOutputStream.java:47)
+	at org.eclipse.core.internal.resources.SaveManager.writeTree(SaveManager.java:2017)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1178)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1108)
+	at org.eclipse.core.internal.resources.Project.close(Project.java:203)
+	at org.eclipse.ui.actions.CloseResourceAction.invokeOperation(CloseResourceAction.java:129)
+	at org.eclipse.ui.actions.WorkspaceAction.execute(WorkspaceAction.java:164)
+	at org.eclipse.ui.actions.WorkspaceAction$2.runInWorkspace(WorkspaceAction.java:485)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.ui.ide 4 4 2012-06-28 09:22:18.743
+!MESSAGE Problems occurred closing the selected resources.
+!SUBENTRY 1 org.eclipse.core.resources 4 568 2012-06-28 09:22:18.743
+!MESSAGE Could not write metadata for '/FDT-2783'.
+!STACK 0
+java.io.FileNotFoundException: /Users/OSX/Desktop/jira/projects_workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/FDT-2783/1.tree (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:194)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:145)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(SafeFileOutputStream.java:47)
+	at org.eclipse.core.internal.resources.SaveManager.writeTree(SaveManager.java:2017)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1178)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1108)
+	at org.eclipse.core.internal.resources.Project.close(Project.java:203)
+	at org.eclipse.ui.actions.CloseResourceAction.invokeOperation(CloseResourceAction.java:129)
+	at org.eclipse.ui.actions.WorkspaceAction.execute(WorkspaceAction.java:164)
+	at org.eclipse.ui.actions.WorkspaceAction$2.runInWorkspace(WorkspaceAction.java:485)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.powerflasher.fdt.core 4 4 2012-06-28 09:22:51.439
+!MESSAGE FDT log: java.util.zip.ZipException: invalid entry compressed size (expected 12180 but got 12178 bytes)
+!STACK 0
+com.powerflasher.fdt.core.swc.internal.parser.SWCParserException: java.util.zip.ZipException: invalid entry compressed size (expected 12180 but got 12178 bytes)
+	at com.powerflasher.fdt.core.swc.internal.parser.SWCParserImpl.parseSWC(SWCParserImpl.java:43)
+	at com.powerflasher.fdt.core.swc.internal.services.SWCByteCodeServiceImpl.<init>(SWCByteCodeServiceImpl.java:20)
+	at com.powerflasher.fdt.core.swc.SWCServices.createSWCByteCodeService(SWCServices.java:16)
+	at com.powerflasher.fdt.core.outermodel.swc.SWCViewCache.parseSWC(SWCViewCache.java:203)
+	at com.powerflasher.fdt.core.outermodel.swc.SWCViewCache.getSwcModelChache(SWCViewCache.java:194)
+	at com.powerflasher.fdt.core.outermodel.swc.SWCViewCache.getSwcServiceFor(SWCViewCache.java:166)
+	at com.powerflasher.fdt.core.outermodel.swc.SWCModelGenerator2.generatorModel(SWCModelGenerator2.java:34)
+	at com.powerflasher.fdt.core.outermodel.swc.SWCModelGenerator2.generatorModel(SWCModelGenerator2.java:1)
+	at com.powerflasher.fdt.core.outermodel.builder.OuterModelBuilder.generateModel(OuterModelBuilder.java:78)
+	at com.powerflasher.fdt.core.outermodel.builder.OuterModelBuilder.fillModel(OuterModelBuilder.java:50)
+	at com.powerflasher.fdt.internal.core.builder.FlashBuilder.buildOuterModelProject(FlashBuilder.java:925)
+	at com.powerflasher.fdt.internal.core.builder.FlashBuilder.fullBuild(FlashBuilder.java:331)
+	at com.powerflasher.fdt.internal.core.builder.FlashBuilder.build(FlashBuilder.java:184)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.util.zip.ZipException: invalid entry compressed size (expected 12180 but got 12178 bytes)
+	at java.util.zip.ZipInputStream.readEnd(ZipInputStream.java:391)
+	at java.util.zip.ZipInputStream.read(ZipInputStream.java:156)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:264)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:306)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:158)
+	at java.io.InputStreamReader.read(InputStreamReader.java:167)
+	at java.io.BufferedReader.fill(BufferedReader.java:136)
+	at java.io.BufferedReader.readLine(BufferedReader.java:299)
+	at java.io.BufferedReader.readLine(BufferedReader.java:362)
+	at com.powerflasher.fdt.core.swc.internal.parser.SWCParserImpl.readCatalog(SWCParserImpl.java:138)
+	at com.powerflasher.fdt.core.swc.internal.parser.SWCParserImpl.addFileEntry(SWCParserImpl.java:89)
+	at com.powerflasher.fdt.core.swc.internal.parser.SWCParserImpl.addFileEntries(SWCParserImpl.java:61)
+	at com.powerflasher.fdt.core.swc.internal.parser.SWCParserImpl.tryParseSWC(SWCParserImpl.java:49)
+	at com.powerflasher.fdt.core.swc.internal.parser.SWCParserImpl.parseSWC(SWCParserImpl.java:38)
+	... 24 more
+
+!ENTRY com.powerflasher.fdt.core 1 1 2012-06-28 09:22:51.558
+!MESSAGE Error at Full build (FDT-2789) - See last log.
+
+!ENTRY org.eclipse.ui.ide 4 4 2012-06-28 09:23:09.932
+!MESSAGE Problems occurred closing the selected resources.
+!SUBENTRY 1 org.eclipse.core.resources 4 568 2012-06-28 09:23:09.932
+!MESSAGE Could not write metadata for '/FDT-2783'.
+!STACK 0
+java.io.FileNotFoundException: /Users/OSX/Desktop/jira/projects_workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/FDT-2783/1.tree (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:194)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:145)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(SafeFileOutputStream.java:47)
+	at org.eclipse.core.internal.resources.SaveManager.writeTree(SaveManager.java:2017)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1178)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1108)
+	at org.eclipse.core.internal.resources.Project.close(Project.java:203)
+	at org.eclipse.ui.actions.CloseResourceAction.invokeOperation(CloseResourceAction.java:129)
+	at org.eclipse.ui.actions.WorkspaceAction.execute(WorkspaceAction.java:164)
+	at org.eclipse.ui.actions.WorkspaceAction$2.runInWorkspace(WorkspaceAction.java:485)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.resources 4 568 2012-06-28 09:23:36.429
+!MESSAGE Could not write metadata for '/FDT-2783'.
+!STACK 0
+java.io.FileNotFoundException: /Users/OSX/Desktop/jira/projects_workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/FDT-2783/.markers.snap (No such file or directory)
+	at java.io.FileOutputStream.openAppend(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:192)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:116)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1684)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1767)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1166)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1108)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.resources 4 568 2012-06-28 09:24:09.299
+!MESSAGE Could not write metadata for '/FDT-2783'.
+!STACK 0
+java.io.FileNotFoundException: /Users/OSX/Desktop/jira/projects_workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/FDT-2783/.markers.snap (No such file or directory)
+	at java.io.FileOutputStream.openAppend(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:192)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:116)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1684)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1767)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1166)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1108)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2012-06-28 09:45:00.972 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.6.0_33
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product com.powerflasher.fdt.product.product -keyring /Users/OSX/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product com.powerflasher.fdt.product.product -keyring /Users/OSX/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2012-06-28 09:45:35.620
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
