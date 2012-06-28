@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="LoadingTest" basedir=".">
+
+<property name="FLEX_HOME"
+		value="/Users/andrea/Workspaces/FlexFrameworks/4.6.0.Air.3.3" />
+	<property name="MXMLC" value="${FLEX_HOME}/bin/mxmlc" />
+	
+  <target name="P1">
+  <exec executable="${MXMLC}">
+			<arg line="-output ${basedir}/bin/P1.swf
+  					-sp=${basedir}/src
+  					-library-path=${FLEX_HOME}/frameworks/libs/air/airglobal.swc
+  					-library-path+=${FLEX_HOME}/frameworks/libs/core.swc
+  					-library-path+=${FLEX_HOME}/frameworks/locale/en_US
+  					-static-link-runtime-shared-libraries=true
+					-target-player=11.1
+  					-- ${basedir}/src/com/p1/P1.as" />
+		</exec>
+      </target>
+</project>
+
