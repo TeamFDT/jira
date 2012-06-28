@@ -1,4 +1,4 @@
-#Thu Jun 28 10:30:06 EDT 2012
+#Thu Jun 28 09:50:42 EDT 2012
 AnesChanged=0
 com.powerflasher.fdt.core.CompatiblePlayers=AIR_Debug_Launcher
 com.powerflasher.fdt.core.CompilerArguments=-static-link-runtime-shared-libraries\=true\n-target-player\={playerVersion}\n-library-path+\="{flexSDK}/frameworks/locale/en_US"\n-default-size\=550,400
@@ -28,7 +28,7 @@ com.powerflasher.fdt.core.mobile.AirDesktop.ICON.PATH.36x36=
 com.powerflasher.fdt.core.mobile.AirDesktop.ICON.PATH.48x48=
 com.powerflasher.fdt.core.mobile.AirDesktop.ICON.PATH.72x72=
 com.powerflasher.fdt.core.mobile.AirDesktop.MOBILE.DESCRIPTOR=bin/LoadingTest-app.xml
-com.powerflasher.fdt.core.mobile.AirDesktop.PACKAGE.CONTENT=bin/LoadingTest-app.xml > LoadingTest-app.xml;bin/FDT-2776.swf > FDT-2776.swf;
+com.powerflasher.fdt.core.mobile.AirDesktop.PACKAGE.CONTENT=bin/LoadingTest-app.xml > LoadingTest-app.xml;bin/\#OutputFolder\#\#Project\#.swf > \#OutputFolder\#\#Project\#.swf;
 com.powerflasher.fdt.core.mobile.AirDesktop.SIGNATURE.CERTIFICATE=
 com.powerflasher.fdt.core.mobile.AirDesktop.SIGNATURE.PWD=HZsdm2UDN/4\=
 com.powerflasher.fdt.core.mobile.AirDesktop.SIGNATURE.REMEMBER.PWD=false
