@@ -1,7 +1,7 @@
 .svn
-.gitignore
-/.gitignore
 /.svn
+.metadata
+/.metadata
 .DS_STORE
 .cvs
 /.cvs
