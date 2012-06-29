@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Application xmlns:fx="http://ns.adobe.com/mxml/2009" 
+			   xmlns:s="library://ns.adobe.com/flex/spark" 
+			   xmlns:mx="library://ns.adobe.com/flex/halo" 
+			   xmlns:sparkskinparts="com.adobe.examples.sparkskinparts.*"
+			   minWidth="1024" minHeight="768">
+	
+	<!-- the powerwindow component -->
+	<sparkskinparts:PowerWindow id="win" 
+								title="Power Window Component Example"
+								horizontalCenter="0" 
+								top="20"
+								width="300" 
+								height="400">
+		
+		<!-- our skinned button in the power window -->
+		<s:Button skinClass="com.adobe.examples.sparkskinparts.ButtonSkin" 
+				  x="50" y="100" 
+				  label="Click Here" />
+		
+	</sparkskinparts:PowerWindow>
+
+	
+	
+</s:Application>

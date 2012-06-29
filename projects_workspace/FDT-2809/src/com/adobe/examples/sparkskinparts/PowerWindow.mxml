@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Panel xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		 xmlns:s="library://ns.adobe.com/flex/spark" 
+		 xmlns:mx="library://ns.adobe.com/flex/halo"
+		 skinClass="com.adobe.examples.sparkskinparts.PowerWindowSkin"
+		 creationComplete="initApp()">
+	
+	<fx:Metadata>
+		[Event("close")]
+		[Event("resize","mx.events.ResizeEvent")]
+	</fx:Metadata>
+	
+	<fx:Script>
+		<![CDATA[
+			import mx.events.ResizeEvent;
+			import spark.components.Button;
+			// declare the skin parts - only close is required
+			[SkinPart(required="true")]
+			public var closeIcon:Button;
+			[SkinPart(required="false")]
+			public var minimizeIcon:Button;
+			[SkinPart(required="false")]
+			public var resizeGripper:Button;
+			
+			// add event listeners
+			private function initApp():void
+			{
+				closeIcon.addEventListener(MouseEvent.CLICK, close);
+				resizeGripper.addEventListener(MouseEvent.MOUSE_DOWN, resize);
+			}
+			// dispatch close event (parent will handle)
+			private function close(event:MouseEvent):void
+			{
+				this.dispatchEvent(new Event(Event.CLOSE));
+			}
+			// dispatch resize event (parent will handle)
+			private function resize(event:MouseEvent):void
+			{
+				var resizeEvent:ResizeEvent = new ResizeEvent(ResizeEvent.RESIZE,false,false,this.width,this.height);
+				this.dispatchEvent(resizeEvent);
+			}
+		]]>
+	</fx:Script>
+	
+</s:Panel>
