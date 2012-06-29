@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:HBox xmlns:mx="http://www.adobe.com/2006/mxml">
+   <mx:Script>
+      <![CDATA[
+         
+         [Bindable]
+         public var model : TestPM;
+         
+      ]]>
+   </mx:Script>
+
+   <mx:Binding source="tbx.text" destination=""/>
+   <mx:TextInput id="tbx"/>
+
+</mx:HBox>
