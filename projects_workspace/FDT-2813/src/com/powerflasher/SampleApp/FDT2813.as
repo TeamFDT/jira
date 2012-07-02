@@ -9,7 +9,8 @@ package com.powerflasher.SampleApp {
 		}
 
 		private function zoomIn() : void {
-			const MAX_SCALE : Number = NUMBER;			
+			var MAX_SCALE : Number;
+			MAX_SCALE = 100;			
 		}
 	}
 }
