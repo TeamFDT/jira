@@ -1,4 +1,4 @@
-package com.powerflasher.SampleApp {
+package  com.powerflasher.SampleApp{
 	import flash.display.Sprite;
 
 	public class FDT2831 extends Sprite {
