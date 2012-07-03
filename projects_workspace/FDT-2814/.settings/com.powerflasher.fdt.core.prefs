@@ -1,4 +1,4 @@
-#Tue Jul 03 11:40:40 EDT 2012
+#Tue Jul 03 11:48:49 EDT 2012
 com.powerflasher.fdt.core.CompatiblePlayers=AIR_Debug_Launcher
 com.powerflasher.fdt.core.CompilerArguments=-target-player\={playerVersion}\n-library-path+\="{flexSDK}/frameworks/locale/en_US"\n-default-size\=550,400
 com.powerflasher.fdt.core.DefaultOutputFolder=bin
@@ -33,4 +33,21 @@ com.powerflasher.fdt.core.mobile.AirDesktop.PACKAGE.CONTENT=bin/FDT-2814-app.xml
 com.powerflasher.fdt.core.mobile.AirDesktop.SIGNATURE.CERTIFICATE=test.p12
 com.powerflasher.fdt.core.mobile.AirDesktop.SIGNATURE.PWD=VvfA7g6w4Ys\=
 com.powerflasher.fdt.core.mobile.AirDesktop.SIGNATURE.REMEMBER.PWD=true
+com.powerflasher.fdt.core.mobile.Android.ACTIVE=false
+com.powerflasher.fdt.core.mobile.Android.AVAILABLE.EXTENSIONS=
+com.powerflasher.fdt.core.mobile.Android.CUSTOM.ADT.CMD.LINE=${package} ${target} ${connection} ${market} ${provision} ${signing} ${output} ${content} ${icons} ${platformsdk}
+com.powerflasher.fdt.core.mobile.Android.CUSTOMIZE.ADT.ARGS=false
+com.powerflasher.fdt.core.mobile.Android.DEPLOY.EXPORT.CAPTIVE=false
+com.powerflasher.fdt.core.mobile.Android.DEPLOY.INSTALL.CHECK=false
+com.powerflasher.fdt.core.mobile.Android.DEPLOY.LOCATION=
+com.powerflasher.fdt.core.mobile.Android.DEPLOY.MARKET.INDEX=0
+com.powerflasher.fdt.core.mobile.Android.DEPLOY.PRE.PACKAGE.LAUNCHER=\ -- No adequate launcher found\! -- 
+com.powerflasher.fdt.core.mobile.Android.ICON.PATH.36x36=
+com.powerflasher.fdt.core.mobile.Android.ICON.PATH.48x48=
+com.powerflasher.fdt.core.mobile.Android.ICON.PATH.72x72=
+com.powerflasher.fdt.core.mobile.Android.MOBILE.DESCRIPTOR=bin/FDT2814-app.xml
+com.powerflasher.fdt.core.mobile.Android.PACKAGE.CONTENT=bin/FDT2814-app.xml > FDT2814-app.xml;;
+com.powerflasher.fdt.core.mobile.Android.SIGNATURE.CERTIFICATE=
+com.powerflasher.fdt.core.mobile.Android.SIGNATURE.PWD=HZsdm2UDN/4\=
+com.powerflasher.fdt.core.mobile.Android.SIGNATURE.REMEMBER.PWD=false
 eclipse.preferences.version=1

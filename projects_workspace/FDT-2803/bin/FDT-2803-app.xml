@@ -13,12 +13,12 @@
 -->
   <!-- A universally unique application identifier. Must be unique across all AIR applications.
 	Using a reverse DNS-style name as the id is recommended. (Eg. com.example.ExampleApplication.) Required. -->
-  <id>FDT-2803</id>
+  <id>Primary</id>
   <!-- Used as the filename for the application. Required. -->
-  <filename>FDT-2803</filename>
+  <filename>Primary</filename>
   <!-- The name that is displayed in the AIR application installer. 
 	May have multiple values for each language. See samples or xsd schema file. Optional. -->
-  <name>FDT-2803</name>
+  <name>Primary</name>
   <!-- A string value of the format <0-999>.<0-999>.<0-999> that represents application version which can be used to check for application upgrade. 
 	Values can also be 1-part or 2-part. It is not necessary to have a 3-part value.
 	An updated version of application must have a versionNumber value higher than the previous version. Required for namespace >= 2.5 . -->
@@ -189,21 +189,26 @@
   <!-- End of the schema for adding the android specific tags in AndroidManifest.xml file -->
   <android>
     <manifestAdditions><![CDATA[<manifest android:installLocation="auto">
-							<uses-permission android:name="android.permission.INTERNET"/>
-			 				<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-							<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
-							<uses-configuration android:reqFiveWayNav="true"/>
-							<supports-screens android:normalScreens="true"/>
-							<uses-feature android:required="true" android:name="android.hardware.touchscreen.multitouch"/>
-							<application android:enabled="true">
-								<activity android:excludeFromRecents="false">
-									<intent-filter>
-										<action android:name="android.intent.action.MAIN"/>
-										<category android:name="android.intent.category.LAUNCHER"/>
-									</intent-filter>
-								</activity>
-							</application>
-						</manifest>]]></manifestAdditions>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-configuration android:reqFiveWayNav="true" />
+    <supports-screens android:normalScreens="true" />
+    <uses-feature android:required="true" android:name="android.hardware.touchscreen.multitouch" />
+    <application android:enabled="true">
+      <activity android:excludeFromRecents="false">
+        <intent-filter>
+          <action android:name="android.intent.action.MAIN" />
+          <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+      </activity>
+    </application>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+  </manifest>]]></manifestAdditions>
   </android>
 </application>
 

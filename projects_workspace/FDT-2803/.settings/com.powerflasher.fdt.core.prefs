@@ -1,4 +1,4 @@
-#Wed Jun 27 15:05:03 EDT 2012
+#Tue Jul 03 11:46:27 EDT 2012
 Android(Profile\ 2)/com.powerflasher.fdt.core.mobile.Android.AVAILABLE.EXTENSIONS=
 Android(Profile\ 2)/com.powerflasher.fdt.core.mobile.Android.CUSTOM.ADT.CMD.LINE=${package} ${connection} ${target} ${market} ${provision} ${signing} ${output} ${content} ${icons} ${platformsdk}
 Android(Profile\ 2)/com.powerflasher.fdt.core.mobile.Android.CUSTOMIZE.ADT.ARGS=false
@@ -44,6 +44,25 @@ com.powerflasher.fdt.core.PlayerVersion=11.1
 com.powerflasher.fdt.core.ProjectTypeHint=AIR Mobile
 com.powerflasher.fdt.core.Runtime=AIR
 com.powerflasher.fdt.core.SdkName=Flex 4.6.0
+com.powerflasher.fdt.core.mobile.AirDesktop.ACTIVE=false
+com.powerflasher.fdt.core.mobile.AirDesktop.AVAILABLE.EXTENSIONS=
+com.powerflasher.fdt.core.mobile.AirDesktop.CUSTOM.ADT.CMD.LINE=${package} ${target} ${connection} ${market} ${provision} ${signing} ${output} ${content} ${icons} ${platformsdk}
+com.powerflasher.fdt.core.mobile.AirDesktop.CUSTOMIZE.ADT.ARGS=false
+com.powerflasher.fdt.core.mobile.AirDesktop.DEPLOY.LOCATION=
+com.powerflasher.fdt.core.mobile.AirDesktop.DEPLOY.PRE.PACKAGE.LAUNCHER=\ -- No adequate launcher found\! -- 
+com.powerflasher.fdt.core.mobile.AirDesktop.DEPLOY.TYPE.AIR.DESKTOP=AIR
+com.powerflasher.fdt.core.mobile.AirDesktop.ICON.PATH.114x114=
+com.powerflasher.fdt.core.mobile.AirDesktop.ICON.PATH.128x128=
+com.powerflasher.fdt.core.mobile.AirDesktop.ICON.PATH.16x16=
+com.powerflasher.fdt.core.mobile.AirDesktop.ICON.PATH.32x32=
+com.powerflasher.fdt.core.mobile.AirDesktop.ICON.PATH.36x36=
+com.powerflasher.fdt.core.mobile.AirDesktop.ICON.PATH.48x48=
+com.powerflasher.fdt.core.mobile.AirDesktop.ICON.PATH.72x72=
+com.powerflasher.fdt.core.mobile.AirDesktop.MOBILE.DESCRIPTOR=bin/FDT2803-app.xml
+com.powerflasher.fdt.core.mobile.AirDesktop.PACKAGE.CONTENT=bin/FDT2803-app.xml > FDT2803-app.xml;;
+com.powerflasher.fdt.core.mobile.AirDesktop.SIGNATURE.CERTIFICATE=
+com.powerflasher.fdt.core.mobile.AirDesktop.SIGNATURE.PWD=HZsdm2UDN/4\=
+com.powerflasher.fdt.core.mobile.AirDesktop.SIGNATURE.REMEMBER.PWD=false
 com.powerflasher.fdt.core.mobile.Android.ACTIVE=true
 com.powerflasher.fdt.core.mobile.Android.AVAILABLE.EXTENSIONS=
 com.powerflasher.fdt.core.mobile.Android.CUSTOM.ADT.CMD.LINE=${package} ${connection} ${target} ${market} ${provision} ${signing} ${output} ${content} ${icons} ${platformsdk}
@@ -53,7 +72,7 @@ com.powerflasher.fdt.core.mobile.Android.DEPLOY.INSTALL.CHECK=false
 com.powerflasher.fdt.core.mobile.Android.DEPLOY.LOCATION=
 com.powerflasher.fdt.core.mobile.Android.DEPLOY.MARKET.INDEX=0
 com.powerflasher.fdt.core.mobile.Android.DEPLOY.PACKAGE.TYPE=0
-com.powerflasher.fdt.core.mobile.Android.DEPLOY.PRE.PACKAGE.LAUNCHER=\ -- No adequate launcher found\! -- 
+com.powerflasher.fdt.core.mobile.Android.DEPLOY.PRE.PACKAGE.LAUNCHER=FDT2803
 com.powerflasher.fdt.core.mobile.Android.DEPLOY.SDK.LOCATION=
 com.powerflasher.fdt.core.mobile.Android.DEPLOY.TSA.URL=
 com.powerflasher.fdt.core.mobile.Android.DEPLOY.TYPE.AIR.DESKTOP=AIR

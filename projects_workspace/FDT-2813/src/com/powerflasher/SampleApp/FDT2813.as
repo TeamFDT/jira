@@ -8,8 +8,8 @@ package com.powerflasher.SampleApp {
 		}
 
 		private function zoomIn() : void {
-			var MAX_SCALE : *;
-			MAX_SCALE = 100;			
+			
+			const MAX_SCALE = 100;			
 		}
 	}
 }
