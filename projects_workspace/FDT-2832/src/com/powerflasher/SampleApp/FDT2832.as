@@ -3,8 +3,8 @@ package com.powerflasher.SampleApp {
 
 	public class FDT2832 extends Sprite {
 		public function FDT2832() {
-			
-				trace("one","two",'three');
+				// do ac after 'abc'
+				trace("one",abc);
 				
 		}
 	}
