@@ -1,0 +1,36 @@
+#Tue Jul 03 11:05:52 EDT 2012
+com.powerflasher.fdt.core.CompatiblePlayers=AIR_Debug_Launcher
+com.powerflasher.fdt.core.CompilerArguments=-target-player\={playerVersion}\n-library-path+\="{flexSDK}/frameworks/locale/en_US"\n-default-size\=550,400
+com.powerflasher.fdt.core.DefaultOutputFolder=bin
+com.powerflasher.fdt.core.DefaultPlayer=AIR_Debug_Launcher
+com.powerflasher.fdt.core.Language=AS3
+com.powerflasher.fdt.core.PassClasspath=true
+com.powerflasher.fdt.core.PassExterns=false
+com.powerflasher.fdt.core.PassMainclass=true
+com.powerflasher.fdt.core.PassRsls=false
+com.powerflasher.fdt.core.PassSwcs=true
+com.powerflasher.fdt.core.PlatformType=DESKTOP
+com.powerflasher.fdt.core.PlayerVersion=11.1
+com.powerflasher.fdt.core.ProjectTypeHint=AIR Flex
+com.powerflasher.fdt.core.Runtime=AIR
+com.powerflasher.fdt.core.SdkName=Flex 4.6.0
+com.powerflasher.fdt.core.mobile.AirDesktop.ACTIVE=true
+com.powerflasher.fdt.core.mobile.AirDesktop.AVAILABLE.EXTENSIONS=
+com.powerflasher.fdt.core.mobile.AirDesktop.CUSTOM.ADT.CMD.LINE=${package} ${target} ${connection} ${market} ${provision} ${signing} ${output} ${content} ${icons} ${platformsdk}
+com.powerflasher.fdt.core.mobile.AirDesktop.CUSTOMIZE.ADT.ARGS=false
+com.powerflasher.fdt.core.mobile.AirDesktop.DEPLOY.LOCATION=bin-deploy/FDT2814.air
+com.powerflasher.fdt.core.mobile.AirDesktop.DEPLOY.PRE.PACKAGE.LAUNCHER=application_XML_icon_test
+com.powerflasher.fdt.core.mobile.AirDesktop.DEPLOY.TYPE.AIR.DESKTOP=AIR
+com.powerflasher.fdt.core.mobile.AirDesktop.ICON.PATH.114x114=
+com.powerflasher.fdt.core.mobile.AirDesktop.ICON.PATH.128x128=src/assets/AppIcon 128.png
+com.powerflasher.fdt.core.mobile.AirDesktop.ICON.PATH.16x16=src/assets/AppIcon 16.png
+com.powerflasher.fdt.core.mobile.AirDesktop.ICON.PATH.32x32=src/assets/AppIcon 32.png
+com.powerflasher.fdt.core.mobile.AirDesktop.ICON.PATH.36x36=
+com.powerflasher.fdt.core.mobile.AirDesktop.ICON.PATH.48x48=src/assets/AppIcon 48.png
+com.powerflasher.fdt.core.mobile.AirDesktop.ICON.PATH.72x72=
+com.powerflasher.fdt.core.mobile.AirDesktop.MOBILE.DESCRIPTOR=bin/FDT-2814-app.xml
+com.powerflasher.fdt.core.mobile.AirDesktop.PACKAGE.CONTENT=bin/FDT-2814-app.xml > FDT-2814-app.xml;bin/FDT-2814.swf > FDT-2814.swf;/Users/OSX/Desktop/jira/projects_workspace/FDT-2814/src/assets;
+com.powerflasher.fdt.core.mobile.AirDesktop.SIGNATURE.CERTIFICATE=test.p12
+com.powerflasher.fdt.core.mobile.AirDesktop.SIGNATURE.PWD=VvfA7g6w4Ys\=
+com.powerflasher.fdt.core.mobile.AirDesktop.SIGNATURE.REMEMBER.PWD=true
+eclipse.preferences.version=1

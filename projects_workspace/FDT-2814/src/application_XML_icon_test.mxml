@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- http://airexamples.com/2008/12/30/displaying-custom-icons-in-an-adobe-air-application/ -->
+<mx:WindowedApplication name="application_XML_icon_test"
+		xmlns:mx="http://www.adobe.com/2006/mxml"
+		layout="vertical" viewSourceURL="srcview/index.html">
+	
+</mx:WindowedApplication>
