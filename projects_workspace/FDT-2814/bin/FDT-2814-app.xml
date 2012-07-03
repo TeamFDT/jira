@@ -191,6 +191,7 @@
     <image16x16>AppIcons/16x16-AppIcon16.png</image16x16>
     <image48x48>AppIcons/48x48-AppIcon48.png</image48x48>
     <image32x32>AppIcons/32x32-AppIcon32.png</image32x32>
+    <image128x128>AppIcons/128x128-AppIcon%20128.png</image128x128>
   </icon>
 </application>
 
