@@ -24,6 +24,7 @@
 <stringAttribute key="PRE_COMPILE_ANT" value=""/>
 <stringAttribute key="PROJECT_NAME" value="FDT-2803"/>
 <booleanAttribute key="START_DEBUGGER" value="true"/>
+<stringAttribute key="START_SWF_WITH" value="AIR Debug Launcher"/>
 <stringAttribute key="TARGET_PLATFORM" value="Android"/>
 <stringAttribute key="TARGET_PLATFORM_CONFIG" value="Primary"/>
 <booleanAttribute key="USE_PROJECT_COMPILER_ARGUMENTS" value="true"/>
