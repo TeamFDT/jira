@@ -188,10 +188,9 @@
   <!-- </android> -->
   <!-- End of the schema for adding the android specific tags in AndroidManifest.xml file -->
   <icon>
-    <image128x128>AppIcons/128x128-AppIcon%20128.png</image128x128>
-    <image16x16>AppIcons/16x16-AppIcon%2016.png</image16x16>
-    <image48x48>AppIcons/48x48-AppIcon%2048.png</image48x48>
-    <image32x32>AppIcons/32x32-AppIcon%2032.png</image32x32>
+    <image16x16>AppIcons/16x16-AppIcon16.png</image16x16>
+    <image48x48>AppIcons/48x48-AppIcon48.png</image48x48>
+    <image32x32>AppIcons/32x32-AppIcon32.png</image32x32>
   </icon>
 </application>
 
