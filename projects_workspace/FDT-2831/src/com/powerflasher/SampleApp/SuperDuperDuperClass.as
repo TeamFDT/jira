@@ -3,7 +3,7 @@ package com.powerflasher.SampleApp {
 	/**
 	 * @author OSX
 	 */
-	public class SuperClass {
+	public class SuperDuperDuperClass {
 		protected var zippyDippy : Sprite;
 		
 		
