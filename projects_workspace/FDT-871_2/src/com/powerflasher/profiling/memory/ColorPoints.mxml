@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<my:ColorPointsCode xmlns:mx="http://www.adobe.com/2006/mxml" xmlns:my="com.powerflasher.profiling.memory.*"
+	backgroundColor="0x000000" layout="absolute">
+	<mx:Button label="generate" click="onClick()" horizontalCenter="0"
+		y="15"/>
+	<mx:HBox id="imageBox" y="50" horizontalCenter="0" horizontalGap="10"/>
+	<mx:HSlider id="alphaSlider" y="150" horizontalCenter="0" minimum="0"
+		maximum="1" value="1" snapInterval="0.1" tickInterval="0.1"
+		dataTipPlacement="top" tickColor="white"/>
+</my:ColorPointsCode>

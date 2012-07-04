@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<my:DotCode xmlns:mx="http://www.adobe.com/2006/mxml" xmlns:my="com.powerflasher.profiling.memory.*" creationComplete="draw()" verticalGap="15" >
+	<mx:Label id="colorLabel" color="0xffffff" width="60" textAlign="center"/>
+</my:DotCode>
