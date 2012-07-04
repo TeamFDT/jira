@@ -1,4 +1,4 @@
-#Tue Jul 03 11:48:49 EDT 2012
+#Wed Jul 04 10:12:55 EDT 2012
 com.powerflasher.fdt.core.CompatiblePlayers=AIR_Debug_Launcher
 com.powerflasher.fdt.core.CompilerArguments=-target-player\={playerVersion}\n-library-path+\="{flexSDK}/frameworks/locale/en_US"\n-default-size\=550,400
 com.powerflasher.fdt.core.DefaultOutputFolder=bin
@@ -17,7 +17,7 @@ com.powerflasher.fdt.core.SdkName=Flex 4.6.0
 com.powerflasher.fdt.core.mobile.AirDesktop.ACTIVE=true
 com.powerflasher.fdt.core.mobile.AirDesktop.AVAILABLE.EXTENSIONS=
 com.powerflasher.fdt.core.mobile.AirDesktop.CUSTOM.ADT.CMD.LINE=${package} ${signing} ${target} ${connection} ${market} ${provision} ${output} ${content} ${icons} ${platformsdk}
-com.powerflasher.fdt.core.mobile.AirDesktop.CUSTOMIZE.ADT.ARGS=true
+com.powerflasher.fdt.core.mobile.AirDesktop.CUSTOMIZE.ADT.ARGS=false
 com.powerflasher.fdt.core.mobile.AirDesktop.DEPLOY.LOCATION=bin-deploy/FDT2814.air
 com.powerflasher.fdt.core.mobile.AirDesktop.DEPLOY.PRE.PACKAGE.LAUNCHER=application_XML_icon_test
 com.powerflasher.fdt.core.mobile.AirDesktop.DEPLOY.TYPE.AIR.DESKTOP=AIR
