@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+
+<views:TestAlert xmlns:mx="http://www.adobe.com/2006/mxml" xmlns:views="spikes.test.*" currentState="collapsed">
+
+   <mx:Script>
+      <![CDATA[
+         import mx.rpc.Fault;
+
+         private var _fault : Fault;
+         private var _messageTitle : String;
+      ]]>
+   </mx:Script>
+
+   <views:states>
+      <mx:State name="collapsed"/>
+      <mx:State name="expanded"/>
+   </views:states>
+
+   <views:transitions>
+      <mx:Transition fromState="collapsed" toState="expanded">
+         <mx:Sequence>
+            <mx:Resize targets="{[details, this]}" duration="250" heightBy="150"/>
+         </mx:Sequence>
+      </mx:Transition>
+      <mx:Transition fromState="expanded" toState="collapsed">
+         <mx:Sequence>
+            <mx:Resize targets="{[details, this]}" duration="250" heightBy="-150"/>
+         </mx:Sequence>
+      </mx:Transition>
+   </views:transitions>
+
+   <views:subComponents>
+      <mx:FormItem id="messageItem" label="Message" percentWidth="100">
+         <mx:Text text="{_messageTitle}" />
+      </mx:FormItem>
+      <mx:CheckBox id="checkbox" label="Show Details" click="{this.currentState = checkbox.selected ? 'expanded' : 'collapsed';}"/>
+   </views:subComponents>
+
+</views:TestAlert>
