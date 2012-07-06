@@ -1,12 +1,19 @@
 ﻿package 
 {
 	import flash.display.Sprite;
+	import flash.events.Event;
 
 	public class Main extends Sprite
 	{
 		public function Main()
 		{
-			// Launch your application by right clicking within this class and select: Debug As > FDT SWF Application
+			if (stage) { this.init(); }
+			else { this.addEventListener(Event.ADDED_TO_STAGE, init); }
+		}
+		
+		private function init():void
+		{
+		    someFunction(stage);
 		}
 	}
 }
