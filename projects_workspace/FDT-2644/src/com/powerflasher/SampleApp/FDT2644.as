@@ -3,6 +3,8 @@ package com.powerflasher.SampleApp {
 
 	public class FDT2644 extends Sprite {
 		public function FDT2644() {
+			trace('FDT2644: ' + (FDT2644));
+			trace('FDT2644: ' + (FDT2644));
 			var _a : String;
 			var _b : String;
 			var _c : String;
