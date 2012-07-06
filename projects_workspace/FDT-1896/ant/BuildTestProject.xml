@@ -1,0 +1,40 @@
+<project name="Breakpoint Test" default="all" basedir="../bin">
+    <property environment="environment"/>
+    <property name="environment.FLEX_HOME" value="/Applications/_ide/sdks/flex_sdk_4.6"/>
+    <property file="../ant/config.properties" />
+
+    <target name="all" depends="ExternalSWF, Main" >
+        <fdt.launch.application
+            projectname="FDT-1896"
+            debug = "true"
+            mainclass="../src/Main.as"
+            target="Main.swf"
+            startswf="true"
+            swflauncher="Adobe Flash Player" />
+    </target>
+
+    <target name="Main">
+        <exec executable="${MXMLC}" failifexecutionfails="true" failonerror="true">
+            <arg line=" -o Main.swf" />
+            <arg line=" +configname=${FLEX_CONFIGNAME}" />
+            <arg line=" -static-link-runtime-shared-libraries=true" />
+            <arg line=" -compiler.library-path ${MIN_COMP}" />
+            <arg line=" -compiler.library-path ${environment.FLEX_HOME}/frameworks/libs" />
+            <arg line=" -debug=true" />
+            <arg line=" -- ../src/Main.as" />
+        </exec>
+    </target>
+
+    <target name="ExternalSWF">
+        <exec executable="${MXMLC}" failifexecutionfails="true"
+            failonerror="true">
+            <arg line=" -o External.swf" />
+            <arg line=" +configname=${FLEX_CONFIGNAME}" />
+            <arg line=" -static-link-runtime-shared-libraries=true" />
+            <arg line=" -compiler.library-path ${MIN_COMP}" />
+            <arg line=" -compiler.library-path ${environment.FLEX_HOME}/frameworks/libs" />
+            <arg line=" -debug=true" />
+            <arg line=" -- ../src/ExternalSwf.as" />
+        </exec>
+    </target>
+</project>

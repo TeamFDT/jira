@@ -3,7 +3,7 @@ package com.powerflasher.SampleApp {
 
 	public class FDT1959 extends Sprite {
 		public function FDT1959() {
-			var a : Vector.<int> = new Array();
+			var a : Vector.<int> = new Array()
 		}
 	}
 }
