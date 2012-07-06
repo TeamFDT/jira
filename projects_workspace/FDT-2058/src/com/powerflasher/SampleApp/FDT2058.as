@@ -5,7 +5,7 @@ package com.powerflasher.SampleApp {
 		public function FDT2058() {
 			
 			
-			new Test(new Object())
+			new Test(new Sp)
 		}
 	}
 }
