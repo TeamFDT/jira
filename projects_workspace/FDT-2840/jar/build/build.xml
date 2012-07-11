@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="main" name="Build jar" basedir="./../">
+
+	<target name="clean">
+        <delete dir="bin/"/>
+    </target>
+	
+	<target name="compile">
+        <mkdir dir="bin"/>
+        <mkdir dir="bin/classes"/>
+        <javac srcdir="src" destdir="bin/classes">
+        </javac>
+    </target>
+	
+	<target name="jar">
+        <mkdir dir="bin/jar"/>
+        <jar destfile="bin/jar/HelloWorldEcho.jar" basedir="bin/classes">
+            <manifest>
+                <attribute name="Main-Class" value="HelloWorldEcho"/>
+            </manifest>
+        </jar>
+    </target>
+	
+	<target name="copy">
+		<copy file="bin/jar/HelloWorldEcho.jar" todir="../bin"/>
+	</target>
+	
+	<target name="main" depends="clean,compile,jar,copy"/>
+</project>
