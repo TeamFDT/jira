@@ -2,13 +2,13 @@
 <launchConfiguration type="com.powerflasher.fdt.ui.CompcGroup">
 <stringAttribute key="ARGUMENTS" value=" -target-player={playerVersion}"/>
 <stringAttribute key="LAUNCHER_DEPENDENCIES" value="[Self]"/>
-<stringAttribute key="OUTPUT" value="bin/SWCTest.swc"/>
+<stringAttribute key="OUTPUT" value="bin/Test.swc"/>
 <booleanAttribute key="PASS_CP" value="true"/>
 <booleanAttribute key="PASS_RSLS" value="false"/>
 <booleanAttribute key="PASS_SWCS" value="true"/>
-<stringAttribute key="PROJECT_NAME" value="SWCTest"/>
+<stringAttribute key="PROJECT_NAME" value="FDT-2839"/>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<listEntry value="/SWCTest"/>
+<listEntry value="/FDT-2839"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="4"/>
