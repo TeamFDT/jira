@@ -1,4 +1,4 @@
-#Mon Jul 09 11:55:25 EDT 2012
+#Wed Jul 11 08:16:28 EDT 2012
 AnePlatforms/Id.QNXDevice.ane=qnx.system.QNXDevice
 AnePlatforms/Id.QNXNetwork.ane=qnx.net.QNXNetwork.ane
 AnePlatforms/Id.QNXSensors.ane=qnx.sensors.QNXSensors
@@ -7,7 +7,7 @@ AnePlatforms/Platforms.QNXDevice.ane=QNX-ARM,QNX-x86,default
 AnePlatforms/Platforms.QNXNetwork.ane=QNX-ARM,QNX-x86,default
 AnePlatforms/Platforms.QNXSensors.ane=QNX-ARM,default
 AnePlatforms/Platforms.QNXSkins.ane=QNX-ARM,QNX-x86,default
-AnesChanged=2
+AnesChanged=3
 com.powerflasher.fdt.core.CompatiblePlayers=AIR_Debug_Launcher
 com.powerflasher.fdt.core.CompilerArguments=-static-link-runtime-shared-libraries\=true\n-target-player\={playerVersion}\n-library-path+\="{flexSDK}/frameworks/locale/en_US"\n-default-size\=550,400
 com.powerflasher.fdt.core.DefaultOutputFolder=bin
