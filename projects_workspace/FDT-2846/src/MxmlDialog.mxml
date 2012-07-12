@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Application xmlns:fx="http://ns.adobe.com/mxml/2009" xmlns:s="library://ns.adobe.com/flex/spark"
+	xmlns:mx="library://ns.adobe.com/flex/mx" implements="swf.plugin.ISwfDialogPlugin"
+	applicationComplete="start()" styleName="plain">
+	<fx:Script>
+		<![CDATA[
+			import swf.bridge.FdtDialogBridge;
+
+			FdtSwfPluginIcon;
+			private var _fdtDialogBridge : FdtDialogBridge;
+
+			public function setOptions(options : Dictionary) : void {
+			}
+
+			private function start() : void {
+				_fdtDialogBridge = new FdtDialogBridge(loaderInfo, this);
+			}
+
+			private function but() : void {
+				closeRequest();
+			}
+
+			public function init(startInfo : String) : void {
+				trace("Try");
+				mmInfo.text = startInfo;
+				trace("Run over");
+				zipCode.text = _fdtDialogBridge.instanceId;
+				phoneNumber.text = _fdtDialogBridge.callerInstanceId;
+			}
+
+			public function setSize(width : int, height : int) : void {
+				this.width = width;
+				this.height = height;
+			}
+
+			public function closeRequest() : void {
+				_fdtDialogBridge.close(mmResult.text);
+			}
+
+			public function onDialogClosed(dialogInstanceId : String, result : String) : void {
+			}
+		]]>
+	</fx:Script>
+
+	<fx:Metadata>
+		[FdtSwfPlugin(name="MxmlDialog", pluginType="dialog", toolTip="Mxml This is new an cool", preferredSize="300,300")]
+	</fx:Metadata>
+
+	<s:Form id="jackForm" width="100%" height="100%" opaqueBackground="false"
+		backgroundColor="0xF0FFB0">
+		<s:FormHeading label="Billing Information 2"/>
+		<s:FormItem label="Zip Code Dialog">
+			<s:TextInput id="zipCode" width="100%"/>
+		</s:FormItem>
+		<s:FormItem label="Phone Number Dialog2">
+			<s:TextInput id="phoneNumber" width="100%"/>
+		</s:FormItem>
+		<s:FormItem label="Info">
+			<s:TextInput id="mmInfo" width="100%"/>
+		</s:FormItem>
+		<s:FormItem label="Result">
+			<s:TextInput id="mmResult" width="100%"/>
+		</s:FormItem>
+		<s:FormItem>
+			<s:Button label="ok" id="mySubmitButton" click="but();"/>
+		</s:FormItem>
+	</s:Form>
+
+</s:Application>

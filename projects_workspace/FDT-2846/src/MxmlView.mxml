@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Application xmlns:fx="http://ns.adobe.com/mxml/2009" xmlns:s="library://ns.adobe.com/flex/spark"
+	xmlns:mx="library://ns.adobe.com/flex/mx" implements="swf.plugin.ISwfViewPlugin"
+	applicationComplete="start()" styleName="plain">
+	<fx:Script>
+		<![CDATA[
+			import swf.bridge.FdtViewBridge;
+
+			FdtSwfPluginIcon;
+			private var _fdtViewBridge : FdtViewBridge;
+
+			public function setOptions(options : Dictionary) : void {
+			}
+
+			private function start() : void {
+				_fdtViewBridge = new FdtViewBridge(loaderInfo, this);
+			}
+
+			private function submitButtonClicked() : void {
+				_fdtViewBridge.ui.openDialog("MxmlDialog", "MyStartInfo").sendTo(this, onOpenDialogue);
+			}
+
+			private function onOpenDialogue(did : String) : void {
+				trace('mok: ' + (onOpenDialogue));
+				phoneNumber.text = did;
+			}
+
+			public function init() : void {
+				zipCode.text = _fdtViewBridge.instanceId;
+			}
+
+			public function setSize(width : int, height : int) : void {
+				this.width = width;
+				this.height = height;
+			}
+
+			public function onDialogClosed(dialogInstanceId : String, result : String) : void {
+				diaResult.text = result;
+			}
+		]]>
+	</fx:Script>
+
+	<fx:Metadata>
+		[FdtSwfPlugin(name="MxmlView", pluginType="views", toolTip="Mxml This is new an cool")]
+	</fx:Metadata>
+
+	<s:Form id="jackForm" width="100%" height="100%" opaqueBackground="false"
+		backgroundColor="0xF0FFB0">
+		<s:FormHeading label="Billing Information"/>
+		<s:FormItem label="Zip Code">
+			<s:TextInput id="zipCode" width="100%"/>
+		</s:FormItem>
+		<s:FormItem label="Phone Number">
+			<s:TextInput id="phoneNumber" width="100%"/>
+		</s:FormItem>
+		<s:FormItem label="Result">
+			<s:TextInput id="diaResult" width="100%"/>
+		</s:FormItem>
+		<s:FormItem>
+			<s:Button label="open" id="mySubmitButton" click="submitButtonClicked();"/>
+		</s:FormItem>
+	</s:Form>
+
+</s:Application>
