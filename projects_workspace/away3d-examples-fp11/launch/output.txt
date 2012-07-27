@@ -1,0 +1,5 @@
+[Info] Listening to port 7935.
+Using Flex SDK 4.5 Debugger Adapter.
+[Info] Connection as server to player via 7935 established.
+[Loading] Loaded: Users:OSX:Desktop:jira:projects_workspace:away3d-examples-fp11:bin:Basic_Shading.swf
+[Loading] Unloaded: Users:OSX:Desktop:jira:projects_workspace:away3d-examples-fp11:bin:Basic_Shading.swf
