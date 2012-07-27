@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<launchConfiguration type="com.powerflasher.fdt.ui.MxmlcGroup">
-<stringAttribute key="APP_ARGUMENTS" value=""/>
+<launchConfiguration type="com.powerflasher.fdt.ui.MobileApplicationGroup">
+<stringAttribute key="ADL_DESCRIPTOR_FILE" value="bin/FDT2856-app.xml"/>
+<intAttribute key="AIR_VIEWER_CONF" value="1"/>
 <stringAttribute key="ARGUMENTS" value=""/>
+<booleanAttribute key="CUSTOMIZE_ADL_ARGS" value="false"/>
+<stringAttribute key="CUSTOM_ADL_CMD_LINE" value="${nodebug} ${profile} ${screensize} ${anesdir} ${desc} ${rootdir}"/>
+<intAttribute key="DEBUG_VIA" value="0"/>
 <booleanAttribute key="DISABLE_COMPILE_PROCESS" value="false"/>
-<booleanAttribute key="KILL_PREVIOUS_VIEWER" value="true"/>
+<booleanAttribute key="INSTALL_APPLICATION" value="true"/>
 <stringAttribute key="LAUNCHER_DEPENDENCIES" value="[Self]"/>
-<stringAttribute key="MAIN_CLASS" value="src/com/powerflasher/SampleApp/FDT2813.as"/>
-<stringAttribute key="OUTPUT" value="bin/FDT2813.swf"/>
+<intAttribute key="LAUNCH_METHOD" value="0"/>
+<stringAttribute key="MAIN_CLASS" value="src/com/powerflasher/SampleApp/FDT2856.as"/>
+<intAttribute key="PACKAGE_METHOD" value="0"/>
 <booleanAttribute key="PASS_CP" value="true"/>
 <booleanAttribute key="PASS_EXTERNS" value="true"/>
 <booleanAttribute key="PASS_MAIN_CLASS" value="true"/>
@@ -16,13 +21,14 @@
 <intAttribute key="PLAYER_WIDTH" value="550"/>
 <stringAttribute key="POST_COMPILE_ANT" value=""/>
 <stringAttribute key="PRE_COMPILE_ANT" value=""/>
-<stringAttribute key="PROJECT_NAME" value="FDT-2813"/>
-<booleanAttribute key="START_SWF_ENABLED" value="true"/>
-<stringAttribute key="START_SWF_LOCATION" value="bin/FDT2813.swf"/>
+<stringAttribute key="PROJECT_NAME" value="FDT-2856"/>
+<booleanAttribute key="START_DEBUGGER" value="true"/>
 <stringAttribute key="START_SWF_WITH" value="External SWF Viewer"/>
+<stringAttribute key="TARGET_PLATFORM" value="AirDesktop"/>
+<stringAttribute key="TARGET_PLATFORM_CONFIG" value="Primary"/>
 <booleanAttribute key="USE_PROJECT_COMPILER_ARGUMENTS" value="true"/>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<listEntry value="/FDT-2813"/>
+<listEntry value="/FDT-2856"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="4"/>

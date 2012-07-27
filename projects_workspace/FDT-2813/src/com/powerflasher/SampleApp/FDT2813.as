@@ -3,13 +3,11 @@ package com.powerflasher.SampleApp {
 
 	public class FDT2813 extends Sprite {
 		public function FDT2813() {
-			trace('FDT2813: ' + (FDT2813));
-			zoomIn();
 		}
 
 		private function zoomIn() : void {
-			
-			const MAX_SCALE = 100;			
+			const MAX_SCALE : Number = 1.6; 	// should be 'convert local const to a field'
+			trace('MAX_SCALE: ' + (MAX_SCALE));
 		}
 	}
 }

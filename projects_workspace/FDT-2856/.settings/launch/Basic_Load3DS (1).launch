@@ -5,8 +5,8 @@
 <booleanAttribute key="DISABLE_COMPILE_PROCESS" value="false"/>
 <booleanAttribute key="KILL_PREVIOUS_VIEWER" value="true"/>
 <stringAttribute key="LAUNCHER_DEPENDENCIES" value="[Self]"/>
-<stringAttribute key="MAIN_CLASS" value="src/com/powerflasher/SampleApp/FDT2813.as"/>
-<stringAttribute key="OUTPUT" value="bin/FDT2813.swf"/>
+<stringAttribute key="MAIN_CLASS" value="src/Basic_Load3DS.as"/>
+<stringAttribute key="OUTPUT" value="bin/Basic_Load3DS.swf"/>
 <booleanAttribute key="PASS_CP" value="true"/>
 <booleanAttribute key="PASS_EXTERNS" value="true"/>
 <booleanAttribute key="PASS_MAIN_CLASS" value="true"/>
@@ -16,13 +16,13 @@
 <intAttribute key="PLAYER_WIDTH" value="550"/>
 <stringAttribute key="POST_COMPILE_ANT" value=""/>
 <stringAttribute key="PRE_COMPILE_ANT" value=""/>
-<stringAttribute key="PROJECT_NAME" value="FDT-2813"/>
+<stringAttribute key="PROJECT_NAME" value="FDT-2856"/>
 <booleanAttribute key="START_SWF_ENABLED" value="true"/>
-<stringAttribute key="START_SWF_LOCATION" value="bin/FDT2813.swf"/>
-<stringAttribute key="START_SWF_WITH" value="External SWF Viewer"/>
+<stringAttribute key="START_SWF_LOCATION" value="bin/Basic_Load3DS.swf"/>
+<stringAttribute key="START_SWF_WITH" value="AIR Debug Launcher"/>
 <booleanAttribute key="USE_PROJECT_COMPILER_ARGUMENTS" value="true"/>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<listEntry value="/FDT-2813"/>
+<listEntry value="/FDT-2856"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="4"/>
