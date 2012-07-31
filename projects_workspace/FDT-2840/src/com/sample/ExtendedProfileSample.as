@@ -17,7 +17,7 @@ package com.sample {
 		 * on a windows machine
 		 */
 		private static const JAVA_HOME : String = "C:\\Program Files\\Java\\jre6";
-		private const I : int = stage.stageHeight;;
+		private const I : int = stage.stageHeight;
 		private const EXRADCTEd : int = 10;
 		private var _output : TextField;
 		private var zippy : int;
@@ -32,7 +32,7 @@ package com.sample {
 			_output = new TextField();
 			var i : int = stage.stageWidth;
 			_output.width = i;
-			_output.height = I
+			_output.height = I;
 			addChild(_output);
 			_createNativeProcess();
 		}
