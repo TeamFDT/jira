@@ -13,18 +13,15 @@ package {
 
 		public function Main() {
 			FdtSwfPluginIcon;
-			
 		}
 
 		public function init(bridge : IFdtActionBridge) : void {
 			_bridge = bridge;
-			_bridge.ui.registerImage("MyCoolIcon", new _picture()).sendTo(null,null);			
+		//	_bridge.ui.registerImage("MyCoolIcon", new _picture()).sendTo(null,null);			
 		}
 
 		public function createProposals(ec : FdtEditorContext) : void {
-			
 			_bridge.offerProposal("MyProposalId", "MyCoolIcon", "Insert The Phrase 'Hello World'", "Description of our proposal", onSelection);
-					
 		}
 
 		private function onSelection(id : String, ec : FdtEditorContext) : void {
