@@ -3,6 +3,7 @@ package com.powerflasher.SampleApp {
 
 	public class FDT2408 extends Sprite {
 		public function FDT2408() {
+			impl
 		}
 	}
 }
