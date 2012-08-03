@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="${projectName} - AIR for iOS Build" basedir="." default="00. [package ipa for debug]">
+
+	<!-- PROJECT SETTINGS -->
+	<property file="ios.properties" />
+
+	<!-- START THE PARTY -->
+	<target name="00. [package ipa for debug]">
+		<antcall target="02. [beam.ipa]" />	
+	</target>
+
+	<!-- force sync to phone using extraction code : http://gamua.com/blog/2012/03/how-to-deploy-ios-apps-to-the-iphone-via-the-command-line/-->
+	<target name="02. [beam.ipa]" >
+		<echo>start chief and beam to phone</echo>
+			<echo file="${script.dir}/${chief.output.file}" append="true" >
+			<![CDATA[ 
+				${lib.dir}/${chief.path} ${basedir}/${deploy.dir}/${publish.ipa}
+			]]>
+			</echo>
+		<run.sync.script />
+		<delete dir="${script.dir}" />
+		</target>
+	
+	<macrodef name="run.sync.script">
+    	<sequential>
+    		<exec executable="/bin/bash" >
+    			<arg line="${script.dir}/${chief.output.file}" />
+    		</exec>
+        </sequential>
+    </macrodef>
+    
+</project>
