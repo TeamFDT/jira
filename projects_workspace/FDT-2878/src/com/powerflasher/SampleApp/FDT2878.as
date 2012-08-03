@@ -4,7 +4,7 @@ package com.powerflasher.SampleApp {
 	public class FDT2878 extends Sprite {
 		public function FDT2878() {
 			
-			var a:*= new Object();
+			var a:* = new Object();
 		}
 	}
 }
