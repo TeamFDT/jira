@@ -1,0 +1,59 @@
+#Wed Sep 05 10:50:15 EDT 2012
+com.powerflasher.fdt.core.CompatiblePlayers=AIR_Debug_Launcher
+com.powerflasher.fdt.core.CompilerArguments=-static-link-runtime-shared-libraries\=true\n-target-player\={playerVersion}\n-library-path+\="{flexSDK}/frameworks/locale/en_US"\n-default-size\=550,400
+com.powerflasher.fdt.core.DefaultOutputFolder=bin
+com.powerflasher.fdt.core.DefaultPlayer=AIR_Debug_Launcher
+com.powerflasher.fdt.core.Language=AS3
+com.powerflasher.fdt.core.PassClasspath=true
+com.powerflasher.fdt.core.PassExterns=false
+com.powerflasher.fdt.core.PassMainclass=true
+com.powerflasher.fdt.core.PassRsls=false
+com.powerflasher.fdt.core.PassSwcs=true
+com.powerflasher.fdt.core.PlatformType=MOBILE
+com.powerflasher.fdt.core.PlayerVersion=11.1
+com.powerflasher.fdt.core.ProjectTypeHint=AIR Mobile
+com.powerflasher.fdt.core.Runtime=AIR
+com.powerflasher.fdt.core.SdkName=Flex 4.6.0
+com.powerflasher.fdt.core.mobile.Android.ACTIVE=false
+com.powerflasher.fdt.core.mobile.Android.AVAILABLE.EXTENSIONS=
+com.powerflasher.fdt.core.mobile.Android.CUSTOM.ADT.CMD.LINE=${package} ${target} ${connection} ${market} ${signing} ${provision} ${output} ${content} ${icons} ${platformsdk}
+com.powerflasher.fdt.core.mobile.Android.CUSTOMIZE.ADT.ARGS=false
+com.powerflasher.fdt.core.mobile.Android.DEPLOY.EXPORT.CAPTIVE=false
+com.powerflasher.fdt.core.mobile.Android.DEPLOY.INSTALL.CHECK=false
+com.powerflasher.fdt.core.mobile.Android.DEPLOY.LOCATION=
+com.powerflasher.fdt.core.mobile.Android.DEPLOY.MARKET.INDEX=0
+com.powerflasher.fdt.core.mobile.Android.DEPLOY.PRE.PACKAGE.LAUNCHER=\ -- No adequate launcher found\! -- 
+com.powerflasher.fdt.core.mobile.Android.ICON.PATH.36x36=
+com.powerflasher.fdt.core.mobile.Android.ICON.PATH.48x48=
+com.powerflasher.fdt.core.mobile.Android.ICON.PATH.72x72=
+com.powerflasher.fdt.core.mobile.Android.MOBILE.DESCRIPTOR=bin/iOSTest-app.xml
+com.powerflasher.fdt.core.mobile.Android.PACKAGE.CONTENT=bin/iOSTest-app.xml > iOSTest-app.xml;bin/iOSTest.swf > iOSTest.swf;
+com.powerflasher.fdt.core.mobile.Android.SIGNATURE.CERTIFICATE=
+com.powerflasher.fdt.core.mobile.Android.SIGNATURE.PWD=HZsdm2UDN/4\=
+com.powerflasher.fdt.core.mobile.Android.SIGNATURE.REMEMBER.PWD=false
+com.powerflasher.fdt.core.mobile.iOS.ACTIVE=true
+com.powerflasher.fdt.core.mobile.iOS.AVAILABLE.EXTENSIONS=
+com.powerflasher.fdt.core.mobile.iOS.CUSTOM.ADT.CMD.LINE=${package} ${target} ${connection} ${market} ${signing} ${provision} ${output} ${content} ${icons} ${platformsdk}
+com.powerflasher.fdt.core.mobile.iOS.CUSTOMIZE.ADT.ARGS=false
+com.powerflasher.fdt.core.mobile.iOS.DEPLOY.LOCATION=
+com.powerflasher.fdt.core.mobile.iOS.DEPLOY.PACKAGE.TYPE=0
+com.powerflasher.fdt.core.mobile.iOS.DEPLOY.PRE.PACKAGE.LAUNCHER=\ -- No adequate launcher found\! -- 
+com.powerflasher.fdt.core.mobile.iOS.DEPLOY.SDK.LOCATION=
+com.powerflasher.fdt.core.mobile.iOS.ICON.PATH.114x114=
+com.powerflasher.fdt.core.mobile.iOS.ICON.PATH.29x29=
+com.powerflasher.fdt.core.mobile.iOS.ICON.PATH.48x48=
+com.powerflasher.fdt.core.mobile.iOS.ICON.PATH.512x512=
+com.powerflasher.fdt.core.mobile.iOS.ICON.PATH.57x57=
+com.powerflasher.fdt.core.mobile.iOS.ICON.PATH.72x72=
+com.powerflasher.fdt.core.mobile.iOS.MOBILE.DESCRIPTOR=bin/iOSTest-app.xml
+com.powerflasher.fdt.core.mobile.iOS.PACKAGE.CONTENT=bin/iOSTest-app.xml > iOSTest-app.xml;bin/iOSTest.swf > iOSTest.swf;
+com.powerflasher.fdt.core.mobile.iOS.SIGNATURE.CERTIFICATE=../../../../_dev/ios/ZertifikatIP.p12
+com.powerflasher.fdt.core.mobile.iOS.SIGNATURE.CERTIFICATE.RELEASE=
+com.powerflasher.fdt.core.mobile.iOS.SIGNATURE.PROVISIONING.FILE=../../../../_dev/ios/430CE61B-47AF-446F-AD6C-6655D6DBFE9C.mobileprovision
+com.powerflasher.fdt.core.mobile.iOS.SIGNATURE.PROVISIONING.FILE.RELEASE=
+com.powerflasher.fdt.core.mobile.iOS.SIGNATURE.PWD=az1PsAcDXiQj4DgEr+jYFw\=\=
+com.powerflasher.fdt.core.mobile.iOS.SIGNATURE.PWD.RELEASE=HZsdm2UDN/4\=
+com.powerflasher.fdt.core.mobile.iOS.SIGNATURE.REMEMBER.PWD=true
+com.powerflasher.fdt.core.mobile.iOS.SIGNATURE.REMEMBER.PWD.RELEASE=false
+com.powerflasher.fdt.core.mobile.iOS.SIGNATURE.USE.DIFEERENT.PROFILES=false
+eclipse.preferences.version=1
