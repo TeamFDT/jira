@@ -1,0 +1,126 @@
+<languageVersion : 1.0;>
+
+kernel Polarize
+<   namespace : "net.nicoptere.shaders";
+    vendor : "Nicolas Barradeau";
+    version : 1;
+    description : "image polarization";
+>
+{
+    input image4 src;
+    output pixel4 dst;
+    
+    parameter float2 imageSize
+    < 
+        minValue:float2( 0.0, 0.0 );
+        maxValue:float2( 256.0, 256.0 );
+        defaultValue:float2( 256.0, 128.0 );
+    >;
+    parameter float2 center
+    <
+        minValue: float2( 0.0,0.0);
+        maxValue: float2( 2000.0,2000.0);
+        defaultValue: float2( 128.0, 128.0);
+    >;
+    
+     parameter float2 radius
+    <
+        minValue: float2( 0.0,0.0);
+        maxValue: float2( 2000.0,2000.0);
+        defaultValue: float2( 0, 128.0);
+    >;
+    
+    const float PI = 3.14159265;
+
+
+    void
+    evaluatePixel()
+    {
+        
+        float2 pos = outCoord();
+        
+        float i = pos.x;
+        float j = pos.y;
+        
+        float xc = center.x;
+        float yc = center.y;
+        
+        float w = imageSize.x / ( 2.0 * PI );
+        float h = imageSize.y;
+        
+        float rmin = 0.0;
+        float rmax = imageSize.x * .5;
+        
+        
+        float xx =( ( j - rmin ) * rmax / h ) * sin( ( i / ( w ) ) ) + xc; 
+        float yy =( ( j - rmin ) * rmax / h ) * cos( ( i / ( w ) ) ) + yc;
+
+         /*
+        -fx "rr=hypot((i-$xc),(j-$yc)); aa=atan2((i-$xc),(j-$yc)); \
+            xx=(aa-(pi/180)*$amn)*(w-1)/((pi/180)*($amx-$amn)); \
+            yy=(rr-$rmn)*(h-1)/($rmx-$rmn); 
+            u.p{xx,yy}
+        */
+        
+        dst = sampleLinear( src, float2( xx, yy ) );
+        
+        
+        
+        /*
+        float2 pos = outCoord();
+       // float angle = ( ( radius - stripHeight * 2.0 * PI ) / stripWidth ) * pos.x / stripWidth * 2.0 * PI;
+       // float angle = ( radius * 2.0 * PI ) / c.x;
+        
+        float dx = ( center.x - pos.x );
+        float dy = ( center.y - pos.y );
+        
+        float angle = atan( dy, dx );
+        float d = sqrt( dx*dx+dy*dy);
+        
+        dst = sampleLinear( src, float2( center.x - cos( angle ) * ( 256.0 * .5 ),
+                                         //center.x + cos( angle ) * ( radius - pos.x ), 
+                                         //center.y + sin( angle ) * ( radius - pos.y )
+                                         center.y - ( sin( angle ) + 1.0 ) * d
+                                         
+                                         ) );
+        */
+    }
+
+
+/*
+    parameter float2 imageSize
+    < 
+        minValue:float2( 0.0, 0.0 );
+        maxValue:float2( 256.0, 256.0 );
+        defaultValue:float2( 256.0, 256.0 );
+    >;
+    parameter float2 center
+    < 
+        minValue:float2( 0.0, 0.0 );
+        maxValue:float2( 256.0, 256.0 );
+        defaultValue:float2( 128.0, 128.0 );
+    >;
+    
+
+    input image4 src;
+    output pixel4 dst;
+
+    void
+    evaluatePixel()
+    {
+        float2 pos = outCoord();
+    
+        float dx = ( pos.x - center.x );
+        float dy = ( pos.y - center.y );
+        //dx = ( center.x - pos.x );
+        //dy = ( center.y - pos.y );
+        
+        float a = atan( dy, dx );
+        float d = sqrt( dx*dx + dy*dy );
+        
+        pos.x = acos( a ) * d;
+        pos.y = asin( a ) * d;
+    
+        dst = sampleNearest(src,pos);
+    }*/
+}

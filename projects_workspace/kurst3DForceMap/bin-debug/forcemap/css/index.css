@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body {
+	margin: 0;
+	padding: 0;
+	background-color: #FBF9F2;
+	height: 100%;
+	
+}
+
+#flashcontent {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	color: #555555;
+}
+
+/* end hide */
+
+a:link {
+	color: #F00;
+}
+a:visited {
+	color: #FFF;
+}
+a:hover {
+	color: #FFF;
+}
+a:active {
+	color: #FFF;
+}

@@ -1,0 +1,34 @@
+<languageVersion : 1.0;>
+
+kernel Polarize
+<   namespace : "net.nicoptere.shaders";
+    vendor : "Nicolas Barradeau";
+    version : 1;
+    description : "image polarization";
+>
+{
+    input image4 src;
+    output pixel4 dst;
+    
+    parameter float2 imageSize
+    < 
+        minValue:float2( 0.0, 0.0 );
+        maxValue:float2( 4096.0, 4096.0 );
+        defaultValue:float2( 256.0, 256.0 );
+    >;
+    
+    const float PI = 3.14159265;
+
+    void
+    evaluatePixel()
+    {
+        
+        float2 pos = outCoord();
+        float2 center = float2( imageSize.x * .5, imageSize.y * .5 );
+        
+        dst = sampleNearest( src, float2(   ( atan( center.x - pos.x, center.y - pos.y ) + PI ) * ( imageSize.x / ( PI * 2.0 ) ),
+                                            distance( pos, center ) ) );
+        
+    }
+
+}

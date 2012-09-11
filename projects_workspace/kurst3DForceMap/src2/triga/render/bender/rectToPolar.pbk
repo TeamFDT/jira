@@ -1,0 +1,50 @@
+<languageVersion : 1.0;>
+
+kernel Polarize
+<   namespace : "net.nicoptere.shaders";
+    vendor : "Nicolas Barradeau";
+    version : 1;
+    description : "image polarization";
+>
+{
+    input image4 src;
+    output pixel4 dst;
+    
+    parameter float2 imageSize
+    < 
+        minValue:float2( 0.0, 0.0 );
+        maxValue:float2( 4096.0, 4096.0 );
+        defaultValue:float2( 256.0, 256.0 );
+    >;
+    
+    const float PI = 3.14159265;
+
+
+    void
+    evaluatePixel()
+    {
+        
+        
+        float2 pos = outCoord();
+        
+        float i = pos.x;
+        float j = pos.y;
+        
+        float w = imageSize.x / ( 2.0 * PI );
+        float h = imageSize.y *.5;
+        
+        float rmin = 0.0;
+        float rmax = imageSize.x * .5;
+        
+        float xc = imageSize.x * .5;
+        float yc = imageSize.y * .5;
+        
+        
+        float xx =( ( j - rmin ) * rmax / h ) * sin( ( i / ( w ) ) ) + xc; 
+        float yy =( ( j - rmin ) * rmax / h ) * cos( ( i / ( w ) ) ) + yc;
+		
+        dst = sampleLinear( src, float2( xx, yy ) );
+        
+        
+    }
+}
