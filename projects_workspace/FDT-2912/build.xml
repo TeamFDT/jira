@@ -1,0 +1,21 @@
+<project name="fdt-2912" default="swc-debug">
+
+	<target name="swc-debug">
+		<delete file="${FDTProjectPath}/bin/target.swc"/>
+		<fdt.loadProjectProperties projectname="FDT-2912" />
+		<fdt.launch.library projectname="${FDTProject}" debug="true" autoaddclasspath="false" compilerarguments="
+			-target-player=${FDTProjectPlayerVersion}
+			-include-sources=${FDTProjectPath}/src
+			-allow-source-path-overlap=true 
+	    	-external-library-path+=${FDTProjectSdkPath}/frameworks/libs/ 
+	    	-external-library-path+=${FDTProjectPath}/lib 
+			-incremental=true 
+			-link-report=${FDTProjectPath}/bin/linkage.txt
+			-benchmark=true" target="${FDTProjectPath}/bin/target_2.swc" />
+	</target>
+
+
+
+
+</project>
+

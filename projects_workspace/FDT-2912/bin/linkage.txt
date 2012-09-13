@@ -1,0 +1,40 @@
+<report>
+  <scripts>
+    <script name="_be3a7dba2538be5add3954e566afd1566e32531d87ad23a79f98c65cc87c2a9f_flash_display_Sprite.as" mod="1347456573202" size="1095" optimizedsize="562">
+      <def id="_be3a7dba2538be5add3954e566afd1566e32531d87ad23a79f98c65cc87c2a9f_flash_display_Sprite" />
+      <pre id="flash.display:Sprite" />
+      <dep id="flash.system:Security" />
+      <dep id="AS3" />
+    </script>
+    <script name="/Users/jvalliere/Projects/madhat-videopresence-flash/FDT-2912/src/Derived.mxml" mod="1347456068000" size="893" optimizedsize="627">
+      <def id="Derived" />
+      <pre id="Base" />
+      <dep id="mx.core:IFlexModuleFactory" />
+      <dep id="AS3" />
+      <dep id="mx.core:mx_internal" />
+    </script>
+    <script name="/Users/jvalliere/Projects/madhat-videopresence-flash/FDT-2912/src/com/powerflasher/SampleApp/FDT2912.mxml" mod="1347456563000" size="1159" optimizedsize="817">
+      <def id="FDT2912" />
+      <pre id="spark.components:Application" />
+      <dep id="mx.core:IFlexModuleFactory" />
+      <dep id="AS3" />
+      <dep id="mx.core:mx_internal" />
+    </script>
+    <script name="/Users/jvalliere/Projects/madhat-videopresence-flash/FDT-2912/src/Base.mxml" mod="1347456103000" size="866" optimizedsize="617">
+      <def id="Base" />
+      <pre id="spark.components:Group" />
+      <dep id="mx.core:IFlexModuleFactory" />
+      <dep id="AS3" />
+      <dep id="mx.core:mx_internal" />
+    </script>
+  </scripts>
+  <external-defs>
+    <ext id="AS3" />
+    <ext id="mx.core:mx_internal" />
+    <ext id="flash.system:Security" />
+    <ext id="mx.core:IFlexModuleFactory" />
+    <ext id="spark.components:Application" />
+    <ext id="spark.components:Group" />
+    <ext id="flash.display:Sprite" />
+  </external-defs>
+</report>
