@@ -19,7 +19,7 @@
 <intAttribute key="PLAYER_WIDTH" value="550"/>
 <stringAttribute key="POST_COMPILE_ANT" value=""/>
 <stringAttribute key="PRE_COMPILE_ANT" value=""/>
-<stringAttribute key="PROJECT_NAME" value="kurst3DForceMap"/>
+<stringAttribute key="PROJECT_NAME" value="FDT-2910"/>
 <stringAttribute key="PUBLISHER_ID" value=""/>
 <booleanAttribute key="START_DEBUGGER" value="true"/>
 <booleanAttribute key="START_SWF_ENABLED" value="true"/>
@@ -27,7 +27,7 @@
 <stringAttribute key="START_SWF_WITH" value="Adobe Flash Player"/>
 <booleanAttribute key="USE_PROJECT_COMPILER_ARGUMENTS" value="true"/>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<listEntry value="/kurst3DForceMap"/>
+<listEntry value="/FDT-2910"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="4"/>

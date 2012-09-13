@@ -1,4 +1,6 @@
 package {
+	import mx.core.MovieClipAsset;
+	import flash.display.MovieClip;
 	import away3d.entities.Mesh;
 	
 	import away3d.filters.BloomFilter3D;
@@ -64,6 +66,8 @@ package {
 			threeDView.width = stage.stageWidth;
 			threeDView.height = stage.stageHeight;
 			threeDView.view.filters3d = [new MotionBlurFilter3D(.6) ];
+			
+			
 			
 			container = new ObjectContainer3D();
 			container.x -= ( stageArea * posMultiplierX ) / 2 ;
