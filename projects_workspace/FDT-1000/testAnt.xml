@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="test-load-propeties">
+	
+	<target name="test-load-propeties">
+		<fdt.loadProjectProperties />
+		<echo>${FDTHostIP}</echo>
+	</target>
+
+</project>
